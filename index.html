@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Iris Dataset - Processing.js</title>
+   <script src="bower_components/Processing.js/processing.js"></script>
+    <script>
+        function redraw() {
+            var pjs = Processing.getInstanceById("plano");
+            pjs.redraw();
+        }
+    </script>
+ </head>
+ <body>
+   <h1>Processing.js Test</h1>
+   <p>Conjunto de Datos IRIS:</p>
+   <div>
+   Eje X:
+       <select id="ejeX">
+       </select>
+   Eje Y:
+       <select id="ejeY">
+       </select>
+   <button onclick="redraw()">Dibujar</button>
+   </div>
+
+   <canvas id="plano" data-processing-sources="iris_web.pde"></canvas>
+ </body>
+ </html>
