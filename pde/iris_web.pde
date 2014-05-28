@@ -7,7 +7,7 @@
 
  void setup() {
    size(520, 410);
-   lines = loadStrings("iris_dataset.txt");
+   lines = loadStrings("pde/iris_dataset.txt");
    titles = lines[0].split(",");
    var x = document.getElementById("ejeX");
    var y= document.getElementById("ejeY");
