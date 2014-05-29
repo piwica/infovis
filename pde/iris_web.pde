@@ -6,7 +6,7 @@
 
 
  void setup() {
-   size(570, 410);
+   size(570, 420);
    String str[] = loadStrings("pde/iris.json");
    var allstr="";
    for (int i = 0 ; i < str.length; i++) {
@@ -35,15 +35,12 @@
     background(255);
     stroke(0);
     fill(0);
-    line(70,0,20,height-10);
-    line(70,height-10,width-100,height-10);
+    line(70,0,70,height-10);
+    line(70,height-10,width-100,height-20);
     textSize(11);
-    text(x, width/2-100,height);
-    rotate(-PI/2);               // Rotate by theta
-    text(y, 0,height/2);
-    //Dibujar ejes
+   //Dibujar ejes
     for (int a = 0; a < width-150; a+=50){
-        text(nfc(a/40, 1), a, height);
+        text(nfc(a/40, 1), a, height-10);
     }
     for (int a = 50; a < height-50; a+=50){
             text(nfc(a/40, 1), 0, 400-a);
@@ -63,7 +60,7 @@
                  fill(77,175,74);
                  stroke(77,175,74);
             }
-            ellipse(line[x]*40+70, 400-line[y]*40-10, 8, 8);
+            ellipse(line[x]*40+70, 400-line[y]*40-20, 8, 8);
         }
 
     //Dibujar Leyenda
@@ -82,5 +79,13 @@
     ellipse(420, 290, 8, 8);
     fill(0);
     text(clase3, 480,240);
- }
+    stroke(0);
+    fill(0);
+    text(x, width/2-100,height-5);
+    translate(0,height/2); // Translate to the center
+    rotate(-PI/2);               // Rotate by theta
+    textAlign(CENTER) ;
+    text(y, 0,0);
+    
+ } 
 
