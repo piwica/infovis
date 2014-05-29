@@ -6,7 +6,9 @@
 
 
  void setup() {
-   size(570, 420);
+   var width_gap=70;
+   var height_gap=20;
+   size(500+width_gap, 400+height_gap);
    String str[] = loadStrings("pde/iris.json");
    var allstr="";
    for (int i = 0 ; i < str.length; i++) {
@@ -35,8 +37,8 @@
     background(255);
     stroke(0);
     fill(0);
-    line(70,0,70,height-20);
-    line(70,height-20,width-100,height-20);
+    line(width_gap,0,width_gap,height-height_gap);
+    line(width_gap,height-height_gap,width-100,height-height_gap);
     textSize(11);
    //Dibujar ejes
     for (int a = 0; a < width-150; a+=50){
@@ -60,25 +62,25 @@
                  fill(77,175,74);
                  stroke(77,175,74);
             }
-            ellipse(line[x]*40+70, 400-line[y]*40-20, 8, 8);
+            ellipse(line[x]*40+width_gap, 400-line[y]*40-height_gap, 8, 8);
         }
 
     //Dibujar Leyenda
     fill(228,26,28);
     stroke(228,26,28);
-    ellipse(470, 200, 8, 8);
+    ellipse(width-100, height/2, 8, 8);
     fill(0);
-    text(clase1, 480,200);
+    text(clase1, width-90,height/2);
     fill(55,126,184);
     stroke(55,126,184);
-    ellipse(470, 220, 8, 8);
+    ellipse(width-100, height/2+10, 8, 8);
     fill(0);
-    text(clase2, 480,220);
+    text(clase2, width-90,height/2+10);
     fill(77,175,74);
     stroke(77,175,74);
-    ellipse(470, 240, 8, 8);
+    ellipse(width-100, height/2+20, 8, 8);
     fill(0);
-    text(clase3, 480,240);
+    text(clase3, width-90,height/2+20);
     stroke(0);
     fill(0);
     
