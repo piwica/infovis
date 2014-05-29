@@ -35,15 +35,15 @@
     background(255);
     stroke(0);
     fill(0);
-    line(70,0,70,height-10);
-    line(70,height-10,width-100,height-20);
+    line(70,0,70,height-20);
+    line(70,height-20,width-100,height-20);
     textSize(11);
    //Dibujar ejes
     for (int a = 0; a < width-150; a+=50){
-        text(nfc(a/40, 1), a, height-10);
+        text(nfc(a/40, 1), a+50, height-20);
     }
     for (int a = 50; a < height-50; a+=50){
-            text(nfc(a/40, 1), 0, 400-a);
+            text(nfc(a/40, 1), 50, 400-a);
     }
     //Dibujar Puntos
         for (int a=1; a < lines.length; a++){
