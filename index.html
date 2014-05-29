@@ -12,15 +12,15 @@
  </head>
  <body>
    <h1>Processing.js Test</h1>
-   <p>Conjunto de Datos IRIS:</p>
+   <h2>Ejercicio:</h2>
+   <p>Leer un archivo de texto y dibujar un scatter plot  con el conjunto de datos Iris:</p>
    <div>
    Eje X:
-       <select id="ejeX">
+       <select onchange="redraw()" id="ejeX">
        </select>
    Eje Y:
-       <select id="ejeY">
+       <select onchange="redraw()" id="ejeY">
        </select>
-   <button onclick="redraw()">Dibujar</button>
    </div>
 
    <canvas id="plano" data-processing-sources="pde/iris_web.pde"></canvas>

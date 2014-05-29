@@ -44,27 +44,33 @@
     for (int a=1; a < lines.length; a++){
         var line = lines[a].split(",");
         if (line[4]===clase1){
-            fill(252,141,89);
+            fill(228,26,28);
+            stroke(228,26,28);
         }
         else if (line[4]===clase2){
-             fill(255,255,191);
+             fill(55,126,184);
+             stroke(55,126,184);
         }
         else if (line[4]===clase3){
-             fill(145,191,219);
+             fill(77,175,74);
+             stroke(77,175,74);
         }
-        ellipse(line[x]*40+20, 400-line[y]*40-10, 5, 5);
+        ellipse(line[x]*40+20, 400-line[y]*40-10, 8, 8);
     }
     //Dibujar Leyenda
-    fill(252,141,89);
-    ellipse(420, 200, 5, 5);
+    fill(228,26,28);
+    stroke(228,26,28);
+    ellipse(420, 200, 8, 8);
     fill(0);
     text(clase1, 430,200);
-    fill(255,255,191);
-    ellipse(420, 220, 5, 5);
+    fill(55,126,184);
+    stroke(55,126,184);
+    ellipse(420, 220, 8, 8);
     fill(0);
     text(clase2, 430,220);
-    fill(145,191,219);
-    ellipse(420, 240, 5, 5);
+    fill(77,175,74);
+    stroke(77,175,74);
+    ellipse(420, 240, 8, 8);
     fill(0);
     text(clase3, 430,240);
  }
