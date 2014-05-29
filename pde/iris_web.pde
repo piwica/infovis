@@ -1,23 +1,28 @@
- String[] lines;
- var clase1= "Iris-setosa";
- var clase2= "Iris-versicolor";
- var clase3= "Iris-virginica";
+ var lines;
+ var clase1= "setosa";
+ var clase2= "versicolor";
+ var clase3= "virginica";
 
 
 
  void setup() {
    size(520, 410);
-   lines = loadStrings("pde/iris_dataset.txt");
-   titles = lines[0].split(",");
+   String str[] = loadStrings("pde/iris.json");
+   var allstr="";
+   for (int i = 0 ; i < str.length; i++) {
+     allstr+=str[i];
+   }
+   lines = jQuery.parseJSON(allstr);
    var x = document.getElementById("ejeX");
    var y= document.getElementById("ejeY");
-   for (int a = 0; a < titles.length -1 ; a++) {
+   var titles={"sepalLength", "sepalWidth", "petalLength", "petalWidth"};
+   for (int a = 0; a < titles.length ; a++) {
        var optionX = document.createElement("option");
        var optionY = document.createElement("option");
        optionX.text = titles[a];
-       optionX.value = a;
+       optionX.value = titles[a];
        optionY.text = titles[a];
-       optionY.value = a;
+       optionY.value = titles[a];
        x.add(optionX);
        y.add(optionY);
      }
@@ -41,22 +46,23 @@
             text(nfc(a/40, 1), 0, 400-a);
     }
     //Dibujar Puntos
-    for (int a=1; a < lines.length; a++){
-        var line = lines[a].split(",");
-        if (line[4]===clase1){
-            fill(228,26,28);
-            stroke(228,26,28);
+        for (int a=1; a < lines.length; a++){
+            var line = lines[a];
+            if (line["species"]===clase1){
+                fill(228,26,28);
+                stroke(228,26,28);
+            }
+            else if (line["species"]===clase2){
+                 fill(55,126,184);
+                 stroke(55,126,184);
+            }
+            else if (line["species"]===clase3){
+                 fill(77,175,74);
+                 stroke(77,175,74);
+            }
+            ellipse(line[x]*40+20, 400-line[y]*40-10, 8, 8);
         }
-        else if (line[4]===clase2){
-             fill(55,126,184);
-             stroke(55,126,184);
-        }
-        else if (line[4]===clase3){
-             fill(77,175,74);
-             stroke(77,175,74);
-        }
-        ellipse(line[x]*40+20, 400-line[y]*40-10, 8, 8);
-    }
+
     //Dibujar Leyenda
     fill(228,26,28);
     stroke(228,26,28);
