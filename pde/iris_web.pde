@@ -2,12 +2,11 @@
  var clase1= "setosa";
  var clase2= "versicolor";
  var clase3= "virginica";
-
+ var width_gap=70;
+ var height_gap=20;
 
 
  void setup() {
-   var width_gap=70;
-   var height_gap=20;
    size(500+width_gap, 400+height_gap);
    String str[] = loadStrings("pde/iris.json");
    var allstr="";
