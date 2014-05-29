@@ -40,7 +40,7 @@
     textSize(11);
    //Dibujar ejes
     for (int a = 0; a < width-150; a+=50){
-        text(nfc(a/40, 1), a+50, height-20);
+        text(nfc(a/40, 1), a+50, height-10);
     }
     for (int a = 50; a < height-50; a+=50){
             text(nfc(a/40, 1), 50, 400-a);
@@ -66,22 +66,22 @@
     //Dibujar Leyenda
     fill(228,26,28);
     stroke(228,26,28);
-    ellipse(420, 250, 8, 8);
+    ellipse(470, 200, 8, 8);
     fill(0);
     text(clase1, 480,200);
     fill(55,126,184);
     stroke(55,126,184);
-    ellipse(420, 270, 8, 8);
+    ellipse(470, 220, 8, 8);
     fill(0);
     text(clase2, 480,220);
     fill(77,175,74);
     stroke(77,175,74);
-    ellipse(420, 290, 8, 8);
+    ellipse(470, 240, 8, 8);
     fill(0);
     text(clase3, 480,240);
     stroke(0);
     fill(0);
-    text(x, width/2-100,height-5);
+    text(x, width/2-100,height);
     translate(0,height/2); // Translate to the center
     rotate(-PI/2);               // Rotate by theta
     textAlign(CENTER) ;
