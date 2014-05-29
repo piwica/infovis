@@ -81,11 +81,6 @@
     text(clase3, 480,240);
     stroke(0);
     fill(0);
-    text(x, width/2-100,height);
-    translate(0,height/2); // Translate to the center
-    rotate(-PI/2);               // Rotate by theta
-    textAlign(CENTER) ;
-    text(y, 0,0);
     
  } 
 
