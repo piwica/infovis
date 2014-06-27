@@ -12,8 +12,8 @@ links.forEach(function(link) {
     link.value = +link.value;
 });
  
-var width = 1260,
-    height = 900,
+var width = 1560,
+    height = 1200,
     color = d3.scale.category20c();
 
  
@@ -21,7 +21,7 @@ var force = d3.layout.force()
     .nodes(d3.values(nodes))
     .links(links)
     .size([width, height])
-    .linkDistance(300)
+    .linkDistance(400)
     .charge(-2000)
     .on("tick", tick)
     .start();
@@ -97,16 +97,16 @@ function tick() {
         var dx = d.target.x - d.source.x,
             dy = d.target.y - d.source.y,
             dr = Math.sqrt(dx * dx + dy * dy);
-        return "M" + 
-            d.source.x + "," + 
-            d.source.y + "A" + 
-            dr + "," + dr + " 0 0,1 " + 
-            d.target.x + "," + 
+        return "M" +
+            d.source.x + "," +
+            d.source.y + "A" +
+            dr + "," + dr + " 0 0,1 " +
+            d.target.x + "," +
             d.target.y;
     });
- 
+
     node
-        .attr("transform", function(d) { 
+        .attr("transform", function(d) {
 		    return "translate(" + d.x + "," + d.y + ")"; });
 }
  
