@@ -51,18 +51,9 @@
         </entry>
       </file>
       <file leaf-file-name="pokconnections.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pokconnections/pokconnections.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.12820514" vertical-offset="0" max-vertical-offset="810">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pokconnections.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pokconnectionsFromAndTo/pokconnections.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="810">
+            <state line="3" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.042735044" vertical-offset="30" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -322,6 +313,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pokconnections/pokconnections.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.12820514" vertical-offset="0" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pokconnectionsFromAndTo/force.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="28095">
@@ -331,14 +329,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pokconnectionsFromAndTo/pokconnections.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pokconnections/pokconnections.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.12820514" vertical-offset="0" max-vertical-offset="810">
+        <state line="3" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.042735044" vertical-offset="30" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
