@@ -26,3 +26,9 @@ line{
     stroke-width: 4px;
 }
 
+.futureleadership{
+    stroke-dasharray:5,5;
+    stroke:gray;
+    fill:gray;
+}
+
