@@ -11,6 +11,7 @@
 rect {
     fill: steelblue;
     stroke:  none;
+    pointer-events: visible;
 }
 
 text {
