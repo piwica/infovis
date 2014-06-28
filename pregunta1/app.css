@@ -12,6 +12,7 @@ rect {
     fill: steelblue;
     stroke:  none;
     pointer-events: visible;
+    cursor: pointer;
 }
 
 text {
