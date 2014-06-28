@@ -1,0 +1,26 @@
+.link {
+    fill: none;
+    stroke:black;
+    stroke-width: 4px;
+}
+
+.link.punteado {
+    stroke-dasharray: 0,2 1;
+}
+
+rect {
+    fill: steelblue;
+    stroke:  none;
+}
+
+text {
+    font: 10px sans-serif;
+    pointer-events: none;
+    fill: white;
+}
+
+line{
+    stroke:black;
+    stroke-width: 4px;
+}
+

@@ -1,0 +1,10 @@
+[
+    {"source": "Henk Bodrogi", "target": "Carmine Osvaldo", "type": "doble"},
+    {"source": "Carmine Osvaldo", "target": "Henk Bodrogi", "type": "doble"},
+    {"source": "Henk Bodrogi", "target": "Jeroen Karel", "type": "normal"},
+    {"source": "Carmine Osvaldo", "target": "Jeroen Karel", "type": "normal"},
+    {"source": "Henk Bodrogi", "target": "Elain Karel", "type": "normal"},
+    {"source": "Carmine Osvaldo", "target": "Elain Karel", "type": "normal"},
+    {"source": "Jeroen Karel", "target": "Elain Karel", "type": "normal"}
+
+]
