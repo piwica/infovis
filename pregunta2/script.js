@@ -39,7 +39,7 @@ d3.json("data.json", function(data) {
         .attr("dy", ".35em")
         .attr("text-anchor", "middle")
         .style("opacity", function(d) { return d.r > 20 ? 1 : 0; })
-        .text(function(d) { return d.name; });
+        .text(function(d) {  return d.name.substring(0, d.r / 3); });
 
     d3.select(window).on("click", function() { zoom(root); });
 });
@@ -60,7 +60,8 @@ function zoom(d, i) {
     t.selectAll("text")
         .attr("x", function(d) { return x(d.x); })
         .attr("y", function(d) { return y(d.y); })
-        .style("opacity", function(d) { return k * d.r > 20 ? 1 : 0; });
+        .style("opacity", function(d) { return k * d.r > 20 ? 1 : 0; })
+        .text(function(d) {  return d.name.substring(0, k* d.r / 3); });
 
     node = d;
     d3.event.stopPropagation();

@@ -5,6 +5,7 @@ text {
 
 text.parent {
     fill: #1f77b4;
+    font-size: 15px;
 }
 
 circle {
@@ -14,8 +15,8 @@ circle {
 }
 
 circle.parent {
-    fill: #1f77b4;
-    fill-opacity: .1;
+    fill: steelblue;
+    fill-opacity: .25;
     stroke: steelblue;
 }
 
