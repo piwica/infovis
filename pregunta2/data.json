@@ -1,0 +1,58 @@
+{
+    "name": "POK",
+    "children": [
+        {
+            "name": "group1",
+            "children":  [
+                {
+                    "name": "Henk Bodrogi",
+                    "size": 24
+                },
+                {
+                    "name": "Carmin Osvaldo",
+                    "size": 16
+                },
+                {
+                    "name": "Jeroen Karel",
+                    "size": 5
+                },
+                {
+                    "name": "Elian Karel",
+                    "size": 14
+                }
+            ]
+        },
+        {
+            "name": "group2",
+            "children":  [
+                {
+                    "name": "Silvia Marek",
+                    "size": 2
+                },
+                {
+                    "name": "Mandor Vann",
+                    "size": 5
+                }
+
+            ]
+        },
+        {
+            "name": "group3",
+            "children":  [
+                {
+                    "name": "Lorenzo Di Stefano",
+                    "size": 3
+                },
+                {
+                    "name": "Lucio Jakab",
+                    "size": 5
+                },
+                {
+                    "name": "Isia Vann",
+                    "size": 5
+                }
+
+            ]
+        }
+    ]
+}
