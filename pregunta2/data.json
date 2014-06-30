@@ -2,14 +2,14 @@
     "name": "POK",
     "children": [
         {
-            "name": "group1",
+            "name": "Original leadership",
             "children":  [
                 {
                     "name": "Henk Bodrogi",
                     "size": 24
                 },
                 {
-                    "name": "Carmin Osvaldo",
+                    "name": "Carmine Osvaldo",
                     "size": 16
                 },
                 {
@@ -19,11 +19,28 @@
                 {
                     "name": "Elian Karel",
                     "size": 14
+                },
+                {
+                    "name": "Ale Hanne",
+                    "size": 5
+                },
+                {
+                    "name": "Valentine Mies",
+                    "size": 5
+                },
+                {
+                    "name": "Yanick Cato",
+                    "size": 5
+                },
+                {
+                    "name": "Joreto Katell",
+                    "size": 5
                 }
+                
             ]
         },
         {
-            "name": "group2",
+            "name": "Future leadership",
             "children":  [
                 {
                     "name": "Silvia Marek",
@@ -37,7 +54,7 @@
             ]
         },
         {
-            "name": "group3",
+            "name": "Extended network",
             "children":  [
                 {
                     "name": "Lorenzo Di Stefano",
