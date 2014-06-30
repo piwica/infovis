@@ -6,35 +6,35 @@
             "children":  [
                 {
                     "name": "Henk Bodrogi",
-                    "size": 24
+                    "size": 34
                 },
                 {
                     "name": "Carmine Osvaldo",
-                    "size": 16
+                    "size": 10
                 },
                 {
                     "name": "Jeroen Karel",
-                    "size": 5
+                    "size": 10
                 },
                 {
                     "name": "Elian Karel",
-                    "size": 14
+                    "size": 98
                 },
                 {
                     "name": "Ale Hanne",
-                    "size": 5
+                    "size": 1
                 },
                 {
                     "name": "Valentine Mies",
-                    "size": 5
+                    "size": 1
                 },
                 {
                     "name": "Yanick Cato",
-                    "size": 5
+                    "size": 1
                 },
                 {
                     "name": "Joreto Katell",
-                    "size": 5
+                    "size": 1
                 }
                 
             ]
@@ -44,11 +44,11 @@
             "children":  [
                 {
                     "name": "Silvia Marek",
-                    "size": 2
+                    "size": 21
                 },
                 {
                     "name": "Mandor Vann",
-                    "size": 5
+                    "size": 1
                 }
 
             ]
@@ -58,15 +58,15 @@
             "children":  [
                 {
                     "name": "Lorenzo Di Stefano",
-                    "size": 3
+                    "size": 1
                 },
                 {
                     "name": "Lucio Jakab",
-                    "size": 5
+                    "size": 1
                 },
                 {
                     "name": "Isia Vann",
-                    "size": 5
+                    "size": 1
                 }
 
             ]
