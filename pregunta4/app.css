@@ -1,0 +1,72 @@
+.node{
+    font: 300 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    fill: #bbb;
+}
+
+text{
+    font: 300 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    fill: black;
+}
+
+.node:hover {
+    fill: #000;
+}
+
+.link {
+    stroke: steelblue;
+    stroke-opacity: 0.1;
+    stroke-width: 2.5px;
+    fill: none;
+    pointer-events: none;
+}
+
+.Information{
+    fill: #377eb8;
+}
+.POK{
+    fill: #e41a1c;
+}
+.Administration{
+    fill: #4daf4a;
+}
+.Facilities{
+    fill:#984ea3;
+}
+.Executive{
+    fill: #ff7f00;
+}
+.Engineering{
+    fill: #f781bf;
+}
+.Security{
+    fill: #a65628;
+}
+
+
+.node:hover,
+.node--source,
+.node--target {
+    font-weight: 700;
+}
+
+.node--source {
+    fill: #2ca02c;
+}
+
+.node--target {
+    fill: #d62728;
+}
+
+.link--source,
+.link--target {
+    stroke-opacity: 1;
+    stroke-width: 2px;
+}
+
+.link--source {
+    stroke: #d62728;
+}
+
+.link--target {
+    stroke: #2ca02c;
+}
