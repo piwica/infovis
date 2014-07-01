@@ -10,15 +10,28 @@
 
 rect {
     fill: steelblue;
-    stroke:  none;
+    fill-opacity:0.5;
+    stroke:  steelblue;
     pointer-events: visible;
     cursor: pointer;
 }
+rect:hover {
+    stroke: #ff7f0e;
+    stroke-width: .5px;
+}
+
+.bold {
+    stroke-width: 6px;
+}
+.bold:hover {
+    stroke: #ff7f0e;
+    stroke-width: 6px;
+}
 
 text {
-    font: 10px sans-serif;
+    font:  13px "Helvetica Neue";
     pointer-events: none;
-    fill: white;
+    fill: black;
 }
 
 line{
