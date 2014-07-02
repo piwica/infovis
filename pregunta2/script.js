@@ -36,7 +36,7 @@ d3.json("data.json", function(data) {
         .attr("class", function(d) { return d.children ? "parent" : "child"; })
         .attr("x", function(d) { return d.x; })
         .attr("y", function(d) { return d.y; })
-        .attr("dy", ".35em")
+        .attr("dy", function(d) { console.log(d.r);return d.children ? "-"+d.r/15+"em" : ".35em"; })
         .attr("text-anchor", "middle")
         .style("opacity", function(d) { return d.r > 20 ? 1 : 0; })
         .text(function(d) {  return d.name.substring(0, d.r / 3); });
