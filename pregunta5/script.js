@@ -37,7 +37,7 @@ function chart(csvpath, colorPositive, colorNegative) {
     strokecolorPositive = colorrangePositive[0];
     strokecolorNegative = colorrangeNegative[0];
 
-    var format = d3.time.format("%y");
+    var format = d3.time.format("%Y");
 
     var margin = {top: 20, right: 40, bottom: 30, left: 30};
     var width = document.body.clientWidth - margin.left - margin.right;
