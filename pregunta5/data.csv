@@ -1,529 +1,375 @@
 type,key,value,date
-negative,activist,0,82
-negative,activist,0,83
-negative,activist,0,84
-negative,activist,0,85
-negative,activist,0,86
-negative,activist,0,87
-negative,activist,0,88
-negative,activist,0,89
-negative,activist,0,90
-negative,activist,0,91
-negative,activist,0,92
-negative,activist,0,93
-negative,activist,0,94
-negative,activist,0,95
-negative,activist,0,96
-negative,activist,0,97
-negative,activist,11,98
-negative,activist,6,99
-negative,activist,0,00
-negative,activist,30,01
-negative,activist,0,02
-negative,activist,0,03
-negative,activist,0,04
-negative,activist,6,05
-negative,activist,0,06
-negative,activist,0,07
-negative,activist,0,08
-negative,activist,46,09
-negative,activist,12,10
-negative,activist,9,11
-negative,activist,16,12
-negative,activist,0,13
-negative,activist,4,14
-negative,arrest,50,82
-negative,arrest,0,83
-negative,arrest,0,84
-negative,arrest,0,85
-negative,arrest,0,86
-negative,arrest,0,87
-negative,arrest,0,88
-negative,arrest,0,89
-negative,arrest,0,90
-negative,arrest,0,91
-negative,arrest,0,92
-negative,arrest,0,93
-negative,arrest,0,94
-negative,arrest,6,95
-negative,arrest,0,96
-negative,arrest,0,97
-negative,arrest,0,98
-negative,arrest,0,99
-negative,arrest,0,00
-negative,arrest,23,01
-negative,arrest,0,02
-negative,arrest,0,03
-negative,arrest,0,04
-negative,arrest,34,05
-negative,arrest,0,06
-negative,arrest,0,07
-negative,arrest,0,08
-negative,arrest,73,09
-negative,arrest,9,10
-negative,arrest,26,11
-negative,arrest,10,12
-negative,arrest,0,13
-negative,arrest,0,14
-negative,attack,1,82
-negative,attack,0,83
-negative,attack,1,84
-negative,attack,0,85
-negative,attack,0,86
-negative,attack,0,87
-negative,attack,0,88
-negative,attack,0,89
-negative,attack,0,90
-negative,attack,0,91
-negative,attack,0,92
-negative,attack,0,93
-negative,attack,6,94
-negative,attack,0,95
-negative,attack,0,96
-negative,attack,0,97
-negative,attack,0,98
-negative,attack,7,99
-negative,attack,0,00
-negative,attack,4,01
-negative,attack,0,02
-negative,attack,6,03
-negative,attack,0,04
-negative,attack,0,05
-negative,attack,0,06
-negative,attack,0,07
-negative,attack,0,08
-negative,attack,13,09
-negative,attack,6,10
-negative,attack,0,11
-negative,attack,9,12
-negative,attack,23,13
-negative,attack,2,14
-negative,burn,0,82
-negative,burn,0,83
-negative,burn,0,84
-negative,burn,0,85
-negative,burn,0,86
-negative,burn,0,87
-negative,burn,0,88
-negative,burn,0,89
-negative,burn,0,90
-negative,burn,0,91
-negative,burn,0,92
-negative,burn,0,93
-negative,burn,0,94
-negative,burn,5,95
-negative,burn,0,96
-negative,burn,0,97
-negative,burn,0,98
-negative,burn,0,99
-negative,burn,11,00
-negative,burn,0,01
-negative,burn,0,02
-negative,burn,0,03
-negative,burn,0,04
-negative,burn,5,05
-negative,burn,0,06
-negative,burn,1,07
-negative,burn,0,08
-negative,burn,5,09
-negative,burn,0,10
-negative,burn,0,11
-negative,burn,1,12
-negative,burn,0,13
-negative,burn,0,14
-negative,busi,5,82
-negative,busi,0,83
-negative,busi,0,84
-negative,busi,0,85
-negative,busi,0,86
-negative,busi,0,87
-negative,busi,0,88
-negative,busi,0,89
-negative,busi,0,90
-negative,busi,0,91
-negative,busi,0,92
-negative,busi,8,93
-negative,busi,5,94
-negative,busi,0,95
-negative,busi,0,96
-negative,busi,0,97
-negative,busi,17,98
-negative,busi,1,99
-negative,busi,0,00
-negative,busi,0,01
-negative,busi,0,02
-negative,busi,0,03
-negative,busi,0,04
-negative,busi,2,05
-negative,busi,0,06
-negative,busi,0,07
-negative,busi,0,08
-negative,busi,7,09
-negative,busi,23,10
-negative,busi,6,11
-negative,busi,1,12
-negative,busi,20,13
-negative,busi,13,14
-negative,crime,0,82
-negative,crime,0,83
-negative,crime,0,84
-negative,crime,0,85
-negative,crime,0,86
-negative,crime,0,87
-negative,crime,0,88
-negative,crime,0,89
-negative,crime,0,90
-negative,crime,0,91
-negative,crime,0,92
-negative,crime,0,93
-negative,crime,0,94
-negative,crime,0,95
-negative,crime,0,96
-negative,crime,0,97
-negative,crime,0,98
-negative,crime,0,99
-negative,crime,0,00
-negative,crime,0,01
-negative,crime,0,02
-negative,crime,0,03
-negative,crime,0,04
-negative,crime,0,05
-negative,crime,0,06
-negative,crime,0,07
-negative,crime,0,08
-negative,crime,5,09
-negative,crime,0,10
-negative,crime,0,11
-negative,crime,0,12
-negative,crime,15,13
-negative,crime,4,14
-negative,drug,5,82
-negative,drug,0,83
-negative,drug,0,84
-negative,drug,0,85
-negative,drug,0,86
-negative,drug,0,87
-negative,drug,0,88
-negative,drug,0,89
-negative,drug,0,90
-negative,drug,0,91
-negative,drug,0,92
-negative,drug,0,93
-negative,drug,0,94
-negative,drug,1,95
-negative,drug,0,96
-negative,drug,0,97
-negative,drug,0,98
-negative,drug,0,99
-negative,drug,0,00
-negative,drug,0,01
-negative,drug,0,02
-negative,drug,0,03
-negative,drug,0,04
-negative,drug,0,05
-negative,drug,0,06
-negative,drug,0,07
-negative,drug,0,08
-negative,drug,0,09
-negative,drug,3,10
-negative,drug,35,11
-negative,drug,1,12
-negative,drug,96,13
-negative,drug,10,14
-positive,fight,0,82
-positive,fight,0,83
-positive,fight,0,84
-positive,fight,0,85
-positive,fight,0,86
-positive,fight,0,87
-positive,fight,0,88
-positive,fight,0,89
-positive,fight,0,90
-positive,fight,0,91
-positive,fight,2,92
-positive,fight,0,93
-positive,fight,0,94
-positive,fight,0,95
-positive,fight,0,96
-positive,fight,0,97
-positive,fight,8,98
-positive,fight,4,99
-positive,fight,0,00
-positive,fight,0,01
-positive,fight,0,02
-positive,fight,0,03
-positive,fight,0,04
-positive,fight,0,05
-positive,fight,0,06
-positive,fight,0,07
-positive,fight,0,08
-positive,fight,6,09
-positive,fight,3,10
-positive,fight,4,11
-positive,fight,4,12
-positive,fight,1,13
-positive,fight,2,14
-positive,fire,0,82
-positive,fire,0,83
-positive,fire,0,84
-positive,fire,0,85
-positive,fire,0,86
-positive,fire,0,87
-positive,fire,0,88
-positive,fire,0,89
-positive,fire,0,90
-positive,fire,0,91
-positive,fire,0,92
-positive,fire,0,93
-positive,fire,0,94
-positive,fire,5,95
-positive,fire,0,96
-positive,fire,0,97
-positive,fire,0,98
-positive,fire,0,99
-positive,fire,32,00
-positive,fire,0,01
-positive,fire,0,02
-positive,fire,0,03
-positive,fire,0,04
-positive,fire,0,05
-positive,fire,0,06
-positive,fire,0,07
-positive,fire,0,08
-positive,fire,9,09
-positive,fire,4,10
-positive,fire,0,11
-positive,fire,4,12
-positive,fire,9,13
-positive,fire,106,14
-positive,help,0,82
-positive,help,0,83
-positive,help,0,84
-positive,help,0,85
-positive,help,0,86
-positive,help,0,87
-positive,help,0,88
-positive,help,0,89
-positive,help,0,90
-positive,help,0,91
-positive,help,4,92
-positive,help,1,93
-positive,help,0,94
-positive,help,8,95
-positive,help,0,96
-positive,help,4,97
-positive,help,22,98
-positive,help,8,99
-positive,help,0,00
-positive,help,4,01
-positive,help,0,02
-positive,help,0,03
-positive,help,0,04
-positive,help,0,05
-positive,help,0,06
-positive,help,0,07
-positive,help,0,08
-positive,help,6,09
-positive,help,2,10
-positive,help,0,11
-positive,help,1,12
-positive,help,4,13
-positive,help,14,14
-negative,hope,0,82
-negative,hope,0,83
-negative,hope,4,84
-negative,hope,0,85
-negative,hope,0,86
-negative,hope,0,87
-negative,hope,0,88
-negative,hope,0,89
-negative,hope,0,90
-negative,hope,0,91
-negative,hope,0,92
-negative,hope,6,93
-negative,hope,0,94
-negative,hope,1,95
-negative,hope,5,96
-negative,hope,0,97
-negative,hope,1,98
-negative,hope,0,99
-negative,hope,0,00
-negative,hope,0,01
-negative,hope,0,02
-negative,hope,0,03
-negative,hope,0,04
-negative,hope,0,05
-negative,hope,0,06
-negative,hope,0,07
-negative,hope,0,08
-negative,hope,14,09
-negative,hope,0,10
-negative,hope,0,11
-negative,hope,1,12
-negative,hope,14,13
-negative,hope,9,14
-positive,mission,0,82
-positive,mission,0,83
-positive,mission,0,84
-positive,mission,0,85
-positive,mission,0,86
-positive,mission,0,87
-positive,mission,0,88
-positive,mission,0,89
-positive,mission,0,90
-positive,mission,0,91
-positive,mission,0,92
-positive,mission,0,93
-positive,mission,0,94
-positive,mission,0,95
-positive,mission,0,96
-positive,mission,0,97
-positive,mission,4,98
-positive,mission,4,99
-positive,mission,0,00
-positive,mission,4,01
-positive,mission,0,02
-positive,mission,0,03
-positive,mission,0,04
-positive,mission,0,05
-positive,mission,0,06
-positive,mission,0,07
-positive,mission,0,08
-positive,mission,9,09
-positive,mission,3,10
-positive,mission,0,11
-positive,mission,0,12
-positive,mission,0,13
-positive,mission,0,14
-positive,protest,0,82
-positive,protest,0,83
-positive,protest,4,84
-positive,protest,0,85
-positive,protest,0,86
-positive,protest,0,87
-positive,protest,0,88
-positive,protest,0,89
-positive,protest,0,90
-positive,protest,0,91
-positive,protest,0,92
-positive,protest,0,93
-positive,protest,0,94
-positive,protest,0,95
-positive,protest,0,96
-positive,protest,0,97
-positive,protest,0,98
-positive,protest,0,99
-positive,protest,0,00
-positive,protest,17,01
-positive,protest,0,02
-positive,protest,0,03
-positive,protest,0,04
-positive,protest,73,05
-positive,protest,0,06
-positive,protest,0,07
-positive,protest,0,08
-positive,protest,101,09
-positive,protest,57,10
-positive,protest,4,11
-positive,protest,48,12
-positive,protest,35,13
-positive,protest,11,14
-negative,terrorist,0,82
-negative,terrorist,0,83
-negative,terrorist,0,84
-negative,terrorist,0,85
-negative,terrorist,0,86
-negative,terrorist,0,87
-negative,terrorist,0,88
-negative,terrorist,0,89
-negative,terrorist,0,90
-negative,terrorist,0,91
-negative,terrorist,0,92
-negative,terrorist,0,93
-negative,terrorist,0,94
-negative,terrorist,0,95
-negative,terrorist,0,96
-negative,terrorist,0,97
-negative,terrorist,0,98
-negative,terrorist,0,99
-negative,terrorist,0,00
-negative,terrorist,0,01
-negative,terrorist,0,02
-negative,terrorist,0,03
-negative,terrorist,0,04
-negative,terrorist,0,05
-negative,terrorist,0,06
-negative,terrorist,0,07
-negative,terrorist,0,08
-negative,terrorist,32,09
-negative,terrorist,0,10
-negative,terrorist,0,11
-negative,terrorist,0,12
-negative,terrorist,18,13
-negative,terrorist,20,14
-negative,threat,0,82
-negative,threat,0,83
-negative,threat,0,84
-negative,threat,0,85
-negative,threat,0,86
-negative,threat,0,87
-negative,threat,0,88
-negative,threat,0,89
-negative,threat,0,90
-negative,threat,0,91
-negative,threat,0,92
-negative,threat,0,93
-negative,threat,0,94
-negative,threat,0,95
-negative,threat,0,96
-negative,threat,0,97
-negative,threat,0,98
-negative,threat,0,99
-negative,threat,0,00
-negative,threat,0,01
-negative,threat,0,02
-negative,threat,0,03
-negative,threat,0,04
-negative,threat,0,05
-negative,threat,0,06
-negative,threat,0,07
-negative,threat,0,08
-negative,threat,0,09
-negative,threat,0,10
-negative,threat,32,11
-negative,threat,25,12
-negative,threat,5,13
-negative,threat,16,14
-negative,vandal,0,82
-negative,vandal,0,83
-negative,vandal,0,84
-negative,vandal,0,85
-negative,vandal,0,86
-negative,vandal,0,87
-negative,vandal,0,88
-negative,vandal,0,89
-negative,vandal,0,90
-negative,vandal,0,91
-negative,vandal,0,92
-negative,vandal,0,93
-negative,vandal,0,94
-negative,vandal,0,95
-negative,vandal,0,96
-negative,vandal,0,97
-negative,vandal,0,98
-negative,vandal,0,99
-negative,vandal,0,00
-negative,vandal,0,01
-negative,vandal,0,02
-negative,vandal,0,03
-negative,vandal,0,04
-negative,vandal,0,05
-negative,vandal,0,06
-negative,vandal,0,07
-negative,vandal,0,08
-negative,vandal,7,09
-negative,vandal,0,10
-negative,vandal,25,11
-negative,vandal,15,12
-negative,vandal,3,13
-negative,vandal,4,14
+negative	activist	6	1998
+negative	activist	6	1999
+negative	activist	10	2001
+negative	activist	6	2005
+negative	activist	28	2009
+negative	activist	12	2010
+negative	activist	16	2012
+negative	arrest	9	2001
+negative	arrest	16	2005
+negative	arrest	47	2009
+negative	arrest	9	2010
+negative	arrest	10	2011
+negative	arrest	10	2012
+positive	assist	4	1998
+positive	assist	3	1999
+positive	assist	1	2009
+positive	assist	1	2010
+positive	assist	1	2012
+positive	assist	7	2014
+negative	attack	4	1999
+negative	attack	6	2009
+negative	attack	6	2010
+negative	attack	4	2012
+negative	attack	8	2013
+negative	attack	1	2014
+negative	burn	5	2005
+negative	burn	5	2009
+negative	burn	1	2012
+negative	busi	4	1998
+negative	busi	1	1999
+negative	busi	2	2005
+negative	busi	6	2009
+negative	busi	10	2010
+negative	busi	6	2011
+negative	busi	1	2012
+negative	busi	3	2013
+negative	busi	4	2014
+positive	citizen	4	1998
+positive	citizen	4	2005
+positive	citizen	25	2009
+positive	citizen	8	2012
+positive	citizen	10	2013
+negative	crime	5	2009
+negative	crime	10	2013
+negative	drug	1	2012
+positive	environment	5	1999
+positive	environment	8	2001
+positive	environment	7	2005
+positive	environment	21	2009
+positive	environment	8	2012
+positive	environment	3	2013
+positive	environment	4	2014
+positive	fight	4	1999
+positive	fight	5	2009
+positive	fight	3	2010
+positive	fight	4	2011
+positive	fight	4	2012
+negative	fire	9	2009
+negative	fire	4	2010
+negative	fire	4	2012
+negative	fire	4	2013
+negative	fire	7	2014
+positive	help	4	1998
+positive	help	4	1999
+positive	help	5	2009
+positive	help	2	2010
+positive	help	1	2012
+positive	help	1	2013
+positive	help	5	2014
+positive	hope	12	2009
+positive	hope	14	2013
+positive	hope	2	2014
+positive	live	4	1998
+positive	live	1	1999
+positive	live	2	2009
+positive	live	4	2010
+positive	live	4	2013
+positive	live	5	2014
+positive	mission	3	1998
+positive	mission	3	1999
+positive	mission	4	2001
+positive	mission	4	2009
+positive	mission	3	2010
+positive	protest	9	2001
+positive	protest	17	2005
+positive	protest	40	2009
+positive	protest	18	2010
+positive	protest	4	2011
+positive	protest	12	2012
+positive	protest	4	2013
+negative	repres	10	1998
+negative	repres	4	2005
+negative	repres	11	2009
+negative	repres	7	2014
+negative	terrorist	19	2009
+negative	terrorist	12	2013
+negative	terrorist	12	2014
+negative	threat	11	2011
+negative	threat	13	2012
+negative	threat	5	2013
+negative	traffic	4	2001
+negative	traffic	8	2005
+negative	traffic	5	2007
+negative	traffic	4	2012
+negative	vandal	7	2009
+negative	vandal	16	2011
+negative	vandal	9	2012
+negative	vandal	3	2013
+positive	protest	0	1998
+positive	protest	0	1999
+positive	protest	0	2000
+positive	protest	0	2002
+positive	protest	0	2003
+positive	protest	0	2004
+positive	protest	0	2006
+positive	protest	0	2007
+positive	protest	0	2008
+positive	protest	0	2014
+positive	environment	0	1998
+positive	environment	0	2000
+positive	environment	0	2002
+positive	environment	0	2003
+positive	environment	0	2004
+positive	environment	0	2006
+positive	environment	0	2007
+positive	environment	0	2008
+positive	environment	0	2010
+positive	environment	0	2011
+negative	fire	0	1998
+negative	fire	0	1999
+negative	fire	0	2000
+negative	fire	0	2001
+negative	fire	0	2002
+negative	fire	0	2003
+negative	fire	0	2004
+negative	fire	0	2005
+negative	fire	0	2006
+negative	fire	0	2007
+negative	fire	0	2008
+negative	fire	0	2011
+positive	citizen	0	1999
+positive	citizen	0	2000
+positive	citizen	0	2001
+positive	citizen	0	2002
+positive	citizen	0	2003
+positive	citizen	0	2004
+positive	citizen	0	2006
+positive	citizen	0	2007
+positive	citizen	0	2008
+positive	citizen	0	2010
+positive	citizen	0	2011
+positive	citizen	0	2014
+negative	busi	0	2000
+negative	busi	0	2001
+negative	busi	0	2002
+negative	busi	0	2003
+negative	busi	0	2004
+negative	busi	0	2006
+negative	busi	0	2007
+negative	busi	0	2008
+negative	threat	0	1998
+negative	threat	0	1999
+negative	threat	0	2000
+negative	threat	0	2001
+negative	threat	0	2002
+negative	threat	0	2003
+negative	threat	0	2004
+negative	threat	0	2005
+negative	threat	0	2006
+negative	threat	0	2007
+negative	threat	0	2008
+negative	threat	0	2009
+negative	threat	0	2010
+negative	threat	0	2014
+positive	live	0	2000
+positive	live	0	2001
+positive	live	0	2002
+positive	live	0	2003
+positive	live	0	2004
+positive	live	0	2005
+positive	live	0	2006
+positive	live	0	2007
+positive	live	0	2008
+positive	live	0	2011
+positive	live	0	2012
+positive	help	0	2000
+positive	help	0	2001
+positive	help	0	2002
+positive	help	0	2003
+positive	help	0	2004
+positive	help	0	2005
+positive	help	0	2006
+positive	help	0	2007
+positive	help	0	2008
+positive	help	0	2011
+negative	repres	0	1999
+negative	repres	0	2000
+negative	repres	0	2001
+negative	repres	0	2002
+negative	repres	0	2003
+negative	repres	0	2004
+negative	repres	0	2006
+negative	repres	0	2007
+negative	repres	0	2008
+negative	repres	0	2010
+negative	repres	0	2011
+negative	repres	0	2012
+negative	repres	0	2013
+positive	hope	0	1998
+positive	hope	0	1999
+positive	hope	0	2000
+positive	hope	0	2001
+positive	hope	0	2002
+positive	hope	0	2003
+positive	hope	0	2004
+positive	hope	0	2005
+positive	hope	0	2006
+positive	hope	0	2007
+positive	hope	0	2008
+positive	hope	0	2010
+positive	hope	0	2011
+positive	hope	0	2012
+negative	arrest	0	1998
+negative	arrest	0	1999
+negative	arrest	0	2000
+negative	arrest	0	2002
+negative	arrest	0	2003
+negative	arrest	0	2004
+negative	arrest	0	2006
+negative	arrest	0	2007
+negative	arrest	0	2008
+negative	arrest	0	2013
+negative	arrest	0	2014
+negative	burn	0	1998
+negative	burn	0	1999
+negative	burn	0	2000
+negative	burn	0	2001
+negative	burn	0	2002
+negative	burn	0	2003
+negative	burn	0	2004
+negative	burn	0	2006
+negative	burn	0	2007
+negative	burn	0	2008
+negative	burn	0	2010
+negative	burn	0	2011
+negative	burn	0	2013
+negative	burn	0	2014
+negative	activist	0	2000
+negative	activist	0	2002
+negative	activist	0	2003
+negative	activist	0	2004
+negative	activist	0	2006
+negative	activist	0	2007
+negative	activist	0	2008
+negative	activist	0	2011
+negative	activist	0	2013
+negative	activist	0	2014
+negative	attack	0	1998
+negative	attack	0	2000
+negative	attack	0	2001
+negative	attack	0	2002
+negative	attack	0	2003
+negative	attack	0	2004
+negative	attack	0	2005
+negative	attack	0	2006
+negative	attack	0	2007
+negative	attack	0	2008
+negative	attack	0	2011
+negative	vandal	0	1998
+negative	vandal	0	1999
+negative	vandal	0	2000
+negative	vandal	0	2001
+negative	vandal	0	2002
+negative	vandal	0	2003
+negative	vandal	0	2004
+negative	vandal	0	2005
+negative	vandal	0	2006
+negative	vandal	0	2007
+negative	vandal	0	2008
+negative	vandal	0	2010
+negative	vandal	0	2014
+negative	drug	0	1998
+negative	drug	0	1999
+negative	drug	0	2000
+negative	drug	0	2001
+negative	drug	0	2002
+negative	drug	0	2003
+negative	drug	0	2004
+negative	drug	0	2005
+negative	drug	0	2006
+negative	drug	0	2007
+negative	drug	0	2008
+negative	drug	0	2009
+negative	drug	0	2010
+negative	drug	0	2011
+negative	drug	0	2013
+negative	drug	0	2014
+negative	terrorist	0	1998
+negative	terrorist	0	1999
+negative	terrorist	0	2000
+negative	terrorist	0	2001
+negative	terrorist	0	2002
+negative	terrorist	0	2003
+negative	terrorist	0	2004
+negative	terrorist	0	2005
+negative	terrorist	0	2006
+negative	terrorist	0	2007
+negative	terrorist	0	2008
+negative	terrorist	0	2010
+negative	terrorist	0	2011
+negative	terrorist	0	2012
+negative	traffic	0	1998
+negative	traffic	0	1999
+negative	traffic	0	2000
+negative	traffic	0	2002
+negative	traffic	0	2003
+negative	traffic	0	2004
+negative	traffic	0	2006
+negative	traffic	0	2008
+negative	traffic	0	2009
+negative	traffic	0	2010
+negative	traffic	0	2011
+negative	traffic	0	2013
+negative	traffic	0	2014
+positive	mission	0	2000
+positive	mission	0	2002
+positive	mission	0	2003
+positive	mission	0	2004
+positive	mission	0	2005
+positive	mission	0	2006
+positive	mission	0	2007
+positive	mission	0	2008
+positive	mission	0	2011
+positive	mission	0	2012
+positive	mission	0	2013
+positive	mission	0	2014
+positive	assist	0	2000
+positive	assist	0	2001
+positive	assist	0	2002
+positive	assist	0	2003
+positive	assist	0	2004
+positive	assist	0	2005
+positive	assist	0	2006
+positive	assist	0	2007
+positive	assist	0	2008
+positive	assist	0	2011
+positive	assist	0	2013
+positive	fight	0	1998
+positive	fight	0	2000
+positive	fight	0	2001
+positive	fight	0	2002
+positive	fight	0	2003
+positive	fight	0	2004
+positive	fight	0	2005
+positive	fight	0	2006
+positive	fight	0	2007
+positive	fight	0	2008
+positive	fight	0	2013
+positive	fight	0	2014
+negative	crime	0	1998
+negative	crime	0	1999
+negative	crime	0	2000
+negative	crime	0	2001
+negative	crime	0	2002
+negative	crime	0	2003
+negative	crime	0	2004
+negative	crime	0	2005
+negative	crime	0	2006
+negative	crime	0	2007
+negative	crime	0	2008
+negative	crime	0	2010
+negative	crime	0	2011
+negative	crime	0	2012
+negative	crime	0	2014
