@@ -3,6 +3,7 @@ chart("data.csv", "green", "orange");
 var datearray = [];
 var colorrangePositive = [];
 var colorrangeNegative = [];
+var maxValues = [];
 
 
 function chart(csvpath, colorPositive, colorNegative) {
@@ -111,9 +112,11 @@ function chart(csvpath, colorPositive, colorNegative) {
             .data(layers)
             .enter().append("path")
             .attr("class", "layer")
-            .attr("d", function(d) { return area(d.values); })
+            .attr("d", function(d) {
+                return area(d.values); })
             .style("fill", function(d, i) {
-            return d.values[0].type==="positive"?zPositive(i): zNegative(i);});
+                d.color=d.values[0].type==="positive"?zPositive(i): zNegative(i);
+                return d.color;});
 
 
         svg.append("g")
@@ -142,6 +145,8 @@ function chart(csvpath, colorPositive, colorNegative) {
             .on("mousemove", function(d, i) {
                 mousex = d3.mouse(this);
                 mousex = mousex[0];
+                mousey =  d3.mouse(this);
+                mousey = mousey[1];
                 var invertedx = x.invert(mousex);
                 invertedx = invertedx.getYear();
                 var selected = (d.values);
@@ -152,13 +157,16 @@ function chart(csvpath, colorPositive, colorNegative) {
 
                 mousedate = datearray.indexOf(invertedx);
                 pro = d.values[mousedate].value;
-
                 d3.select(this)
                     .classed("hover", true)
                     .attr("stroke",function(d, i) {
                         return d.values[0].type==="positive"?strokecolorPositive: strokecolorNegative})
                     .attr("stroke-width", "0.5px"),
-                    tooltip.html( "<p>" + d.key + "<br>" + pro + "</p>" ).style("visibility", "visible");
+                    tooltip
+                        .style("left", (mousex+50) + "px" )
+                        .style("top", (mousey+50) + "px" )
+                        .html( "<div style=' text-align:center; width:80px; height:15px; background-color:"+ d.color+"'><p>" + d.key + ":" + pro + "</p></div>" )
+                       .style("visibility", "visible");
 
             })
             .on("mouseout", function(d, i) {
