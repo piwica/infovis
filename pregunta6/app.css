@@ -48,18 +48,26 @@ line{
 .circle1{
     fill: #587094;
     stroke: #587094;
+    pointer-events: visible;
+    cursor: pointer;
 }
 
 .circle2{
     fill: steelblue;
     stroke: steelblue;
+    pointer-events: visible;
+    cursor: pointer;
 }
 .circle3{
     fill: #f11c17;
     stroke: #f11c17;
+    pointer-events: visible;
+    cursor: pointer;
 }
 
 .circle4{
     fill: #500006;
     stroke: #500006;
+    pointer-events: visible;
+    cursor: pointer;
 }

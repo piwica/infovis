@@ -29,7 +29,7 @@ body {
 }
 .innerContent {
     margin: 0 auto;
-    width: 800px;
+    width: 900px;
 }
 #introText {
     position: fixed;
@@ -141,7 +141,7 @@ body {
 .section {
     position: relative;
     display: block;
-    width: 800px;
+    width: 900px;
 }
 .lastSection {
     margin-bottom: 0 !important;

@@ -1,4 +1,4 @@
-var w = 1000,
+var w = 850,
     h = 300;
 
 
@@ -31,7 +31,7 @@ svg.append("defs")
     .attr('fill', '#f1a620');
 
 svg.append("line")
-    .attr("x1",50)
+    .attr("x1",30)
     .attr("y1",h-40)
     .attr("x2",w-10)
     .attr("y2",h-40)
@@ -46,16 +46,16 @@ svg.append("text")
 
 svg.append("text")
     .attr("x", -150)
-    .attr("y", h-270)
+    .attr("y", h-280)
     .attr('class', 'textline')
     .style("text-anchor", "middle")
     .attr('transform', 'rotate(-90 0,0)')
     .text("Structure of the leadership of POK");
 
 svg.append("line")
-    .attr("x1",50)
+    .attr("x1",30)
     .attr("y1",h-38)
-    .attr("x2",50)
+    .attr("x2",30)
     .attr("y2",50);
 
 
@@ -180,12 +180,12 @@ svg.append("foreignObject")
         'Leadership of POK</div>');
 
 var circles =[
-    {class:"circle1", x:80, y:90, r:10},
-    {class:"circle1", x:125, y:100, r:10},
-    {class:"circle1", x:100, y:75, r:10},
-    {class:"circle1", x:90, y:120, r:10},
-    {class:"circle1", x:115, y:125, r:10},
-    {class:"circle2", x:100, y:100, r:10}
+    {class:"circle1", x:70, y:90, r:10},
+    {class:"circle1", x:115, y:100, r:10},
+    {class:"circle1", x:90, y:75, r:10},
+    {class:"circle1", x:80, y:120, r:10},
+    {class:"circle1", x:105, y:125, r:10},
+    {class:"circle2", x:90, y:100, r:10}
 ];
 
 svg.selectAll("circle1")
@@ -195,7 +195,17 @@ svg.selectAll("circle1")
     .attr("cx", function(d) { return d.x; })
     .attr("cy", function(d) { return d.y; })
     .attr("r", function(d) { return d.r; })
-    .on("click", function(d) { });
+    .on("click", function(d) {
+        svg.append("text")
+        .attr("x", w/10)
+        .attr("y", h/2)
+        .style("text-anchor", "middle")
+        .text("Several citizens");
+        svg.append("text")
+            .attr("x", w/10)
+            .attr("y", h/2+20)
+            .style("text-anchor", "middle")
+            .text("begin to gather");});
 
 var circles2 =[
     {class:"circle2", x:250, y:100, r:15},
@@ -214,7 +224,17 @@ svg.selectAll("circle2")
     .attr("cx", function(d) { return d.x; })
     .attr("cy", function(d) { return d.y; })
     .attr("r", function(d) { return d.r; })
-    .on("click", function(d) { });
+    .on("click", function(d) {
+        svg.append("text")
+            .attr("x", 250)
+            .attr("y", 80)
+            .style("text-anchor", "middle")
+            .text("Seven founding members");
+        svg.append("text")
+            .attr("x", 250)
+            .attr("y", h/2-20)
+            .style("text-anchor", "middle")
+            .text("Henk Bodrogi");});
 
 var circles3 =[
     {class:"circle2", x:500, y:100, r:15},
@@ -234,7 +254,17 @@ svg.selectAll("circle3")
     .attr("cx", function(d) { return d.x; })
     .attr("cy", function(d) { return d.y; })
     .attr("r", function(d) { return d.r; })
-    .on("click", function(d) { });
+    .on("click", function(d) {
+        svg.append("text")
+            .attr("x", 500)
+            .attr("y", 80)
+            .style("text-anchor", "middle")
+            .text("Seven founding members");
+        svg.append("text")
+            .attr("x", 500)
+            .attr("y", h/2+35)
+            .style("text-anchor", "middle")
+            .text("Elian Karel");});
 
 svg.append("line")
     .attr("x1",500)
@@ -245,8 +275,8 @@ svg.append("line")
 
 var circles3 =[
     {class:"circle4", x:700, y:150, r:15},
-    {class:"circle1", x:770, y:130, r:10},
-    {class:"circle1", x:770, y:170, r:10}
+    {class:"circle1", x:800, y:130, r:10},
+    {class:"circle1", x:800, y:170, r:10}
 ];
 
 svg.selectAll("circle3")
@@ -256,12 +286,27 @@ svg.selectAll("circle3")
     .attr("cx", function(d) { return d.x; })
     .attr("cy", function(d) { return d.y; })
     .attr("r", function(d) { return d.r; })
-    .on("click", function(d) { });
+    .on("click", function(d) {
+        svg.append("text")
+            .attr("x", 700)
+            .attr("y", h/2+35)
+            .style("text-anchor", "middle")
+            .text("Elian Karel");
+        svg.append("text")
+            .attr("x", 800)
+            .attr("y", 110)
+            .style("text-anchor", "middle")
+            .text("Silvia Marek");
+        svg.append("text")
+            .attr("x", 800)
+            .attr("y", 195)
+            .style("text-anchor", "middle")
+            .text("Mandor Vann");});
 
 svg.append("line")
     .attr("x1",715)
     .attr("y1",150)
-    .attr("x2",755)
+    .attr("x2",785)
     .attr("y2",130)
     .attr("stroke-dasharray", "10,10")
     .attr("marker-end","url(#markerEnd)");
@@ -269,7 +314,7 @@ svg.append("line")
 svg.append("line")
     .attr("x1",715)
     .attr("y1",150)
-    .attr("x2",755)
+    .attr("x2",785)
     .attr("y2",170)
     .attr("stroke-dasharray", "10,10")
     .attr("marker-end","url(#markerEnd)");
