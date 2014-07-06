@@ -1,4 +1,4 @@
-chart("DATA_POK_COLOR.CSV", "green", "orange");
+chart("DATA_POK_COLOR.CSV", "green", "red");
 
 var datearray = [];
 var colorrangePositive = [];
@@ -12,7 +12,7 @@ function chart(csvpath, colorPositive, colorNegative) {
         colorrangePositive = ["#045A8D", "#2B8CBE", "#74A9CF", "#A6BDDB", "#D0D1E6", "#F1EEF6"];
     }
     else if (colorPositive == "green") {
-        colorrangePositive = ["#006d2c", "#2ca25f", "#66c2a4", "#99d8c9", "#ccece6", "#edf8fb"];
+        colorrangePositive = ["#004529", "#238443", "#78c679", "#d9f0a3", "#ffffe5", "#addd8e"];
     }
     else if (colorPositive == "pink") {
         colorrangePositive = ["#980043", "#DD1C77", "#DF65B0", "#C994C7", "#D4B9DA", "#F1EEF6"];
@@ -33,6 +33,9 @@ function chart(csvpath, colorPositive, colorNegative) {
     else if (colorNegative == "orange") {
         colorrangeNegative = ["#B30000", "#E34A33", "#FC8D59", "#FDBB84", "#FDD49E", "#FEF0D9"];
     }
+    else if (colorNegative == "red") {
+        colorrangeNegative = ["#b30000", "#ef6548", "#fdbb84", "#fee8c8", "#feb24c", "#fed976"];
+    }
 
     strokecolorPositive = colorrangePositive[0];
     strokecolorNegative = colorrangeNegative[0];
@@ -40,7 +43,7 @@ function chart(csvpath, colorPositive, colorNegative) {
     var format = d3.time.format("%Y");
 
     var margin = {top: 20, right: 40, bottom: 30, left: 30};
-    var width = document.body.clientWidth - margin.left - margin.right;
+    var width = 1000 - margin.left - margin.right;
     var height = 400 - margin.top - margin.bottom;
 
     var tooltip = d3.select("body")
@@ -115,8 +118,7 @@ function chart(csvpath, colorPositive, colorNegative) {
             .attr("d", function(d) {
                 return area(d.values); })
             .style("fill", function(d, i) {
-                console.log(d.values[0]);
-                d.color=d.values[0].color;
+                d.color=d.values[0].type==="positive"?zPositive(i): zNegative(i);
                 return d.color;});
 
 
