@@ -1,0 +1,65 @@
+.link {
+    fill: none;
+    stroke:black;
+    stroke-width: 4px;
+}
+
+.link.punteado {
+    stroke-dasharray: 0,2 1;
+}
+
+rect {
+    fill: steelblue;
+    fill-opacity:0.5;
+    stroke:  steelblue;
+    pointer-events: visible;
+    cursor: pointer;
+}
+rect:hover {
+    stroke: #ff7f0e;
+    stroke-width: .5px;
+}
+
+.bold {
+    stroke-width: 6px;
+}
+.bold:hover {
+    stroke: #ff7f0e;
+    stroke-width: 6px;
+}
+
+text {
+    font:  13px "Helvetica Neue";
+    pointer-events: none;
+    fill: black;
+}
+
+.textline {
+    font:  13px "Helvetica Neue";
+    pointer-events: none;
+    fill: #f1a620;
+}
+
+line{
+    stroke:#f1a620;
+    stroke-width: 4px;
+}
+
+.circle1{
+    fill: #587094;
+    stroke: #587094;
+}
+
+.circle2{
+    fill: steelblue;
+    stroke: steelblue;
+}
+.circle3{
+    fill: #f11c17;
+    stroke: #f11c17;
+}
+
+.circle4{
+    fill: #500006;
+    stroke: #500006;
+}
