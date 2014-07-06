@@ -1,27 +1,28 @@
 text {
     font-size: 11px;
     pointer-events: none;
+    fill: #ECE9E0;
 }
 
 text.parent {
-    fill: #1f77b4;
-    font-size: 15px;
+    fill: #ECE9E0;
+    font-size: 20px;
 }
 
 circle {
-    fill: #ccc;
-    stroke: #999;
+    fill: #29493B;
+    stroke:#1F2A25;
     pointer-events: all;
 }
 
 circle.parent {
-    fill: steelblue;
-    fill-opacity: .25;
-    stroke: steelblue;
+    fill: #965F00;
+    fill-opacity: .50;
+    stroke: #965F00;
 }
 
 circle.parent:hover {
-    stroke: #ff7f0e;
+    stroke: steelblue;
     stroke-width: .5px;
 }
 

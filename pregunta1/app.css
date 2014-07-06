@@ -9,9 +9,7 @@
 }
 
 rect {
-    fill: steelblue;
-    fill-opacity:0.5;
-    stroke:  steelblue;
+    fill: #29493B;
     pointer-events: visible;
     cursor: pointer;
 }
@@ -29,9 +27,9 @@ rect:hover {
 }
 
 text {
-    font:  13px "Helvetica Neue";
+    font:  14px "Helvetica Neue";
     pointer-events: none;
-    fill: black;
+    fill: #ECE9E0;
 }
 
 line{
@@ -41,7 +39,7 @@ line{
 
 .futureleadership{
     stroke-dasharray:5,5;
-    stroke:gray;
-    fill:gray;
+    stroke:#ff7f0e;
+    fill:#ff7f0e;
 }
 

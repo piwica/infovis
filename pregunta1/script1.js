@@ -37,17 +37,23 @@ var Henk_Bodrogi = svg
     .attr("x", 4*width/8)
     .attr("y", height/4)
     .attr("width", 100)
-    .attr("height", 40)
+    .attr("height", 45)
     .attr("rx", 10)
     .attr("ry", 10);
 
 svg.append("text")
     .attr("x", 4*width/8 )
     .attr("y", height/4)
-    .attr("dy", "25px")
+    .attr("dy", "20px")
     .attr("dx", "50px")
     .style("text-anchor", "middle")
-    .text("Henk Bodrogi");
+    .text("Henk")
+    .append("tspan")
+    .attr("x", 4*width/8 )
+    .attr("y", height/4+15)
+    .attr("dy", "20px")
+    .attr("dx", "50px")
+    .text("Bodrogi");
 
 
 //Create Carmine Osvaldo
@@ -56,17 +62,23 @@ var Carmine_Osvaldo = svg
     .attr("x", 5*width/8)
     .attr("y", height/4)
     .attr("width", 100)
-    .attr("height", 40)
+    .attr("height", 45)
     .attr("rx", 10)
     .attr("ry", 10);
 
 svg.append("text")
     .attr("x", 5*width/8 )
     .attr("y", height/4)
-    .attr("dy", "25px")
+    .attr("dy", "20px")
     .attr("dx", "50px")
     .style("text-anchor", "middle")
-    .text("Carmine Osvaldo");
+    .text("Carmine")
+    .append("tspan")
+    .attr("x", 5*width/8 )
+    .attr("y", height/4+15)
+    .attr("dy", "20px")
+    .attr("dx", "50px")
+    .text("Osvaldo");
 
 
 // Create Line Henk_Bodrogi to Carmine_Osvaldo
@@ -82,17 +94,23 @@ var Jeroen_Karel = svg
     .attr("x", 3*width/8)
     .attr("y", height/4)
     .attr("width", 100)
-    .attr("height", 40)
+    .attr("height", 45)
     .attr("rx", 10)
     .attr("ry", 10);
 
 svg.append("text")
     .attr("x", 3*width/8 )
     .attr("y", height/4)
-    .attr("dy", "25px")
+    .attr("dy", "20px")
     .attr("dx", "50px")
     .style("text-anchor", "middle")
-    .text("Jeroen Karel");
+    .text("Jeroen")
+    .append("tspan")
+    .attr("x", 3*width/8 )
+    .attr("y", height/4+15)
+    .attr("dy", "20px")
+    .attr("dx", "50px")
+    .text("Karel");
 
 // Create Line Henk_Bodrogi to Jeroen_Karel
 svg.append("line")
@@ -107,17 +125,23 @@ var Valentine_Mies = svg
     .attr("x", 2*width/8)
     .attr("y", height/4)
     .attr("width", 100)
-    .attr("height", 40)
+    .attr("height", 45)
     .attr("rx", 10)
     .attr("ry", 10);
 
 svg.append("text")
     .attr("x", 2*width/8 )
     .attr("y", height/4)
-    .attr("dy", "25px")
+    .attr("dy", "20px")
     .attr("dx", "50px")
     .style("text-anchor", "middle")
-    .text("Valentine Mies");
+    .text("Valentine")
+    .append("tspan")
+    .attr("x", 2*width/8 )
+    .attr("y", height/4+15)
+    .attr("dy", "20px")
+    .attr("dx", "50px")
+    .text("Mies");
 
 // Create Line Valentine Mies to Jeroen_Karel
 svg.append("line")
@@ -132,17 +156,23 @@ var Ale_Hanne = svg
     .attr("x", width/8)
     .attr("y", height/4)
     .attr("width", 100)
-    .attr("height", 40)
+    .attr("height", 45)
     .attr("rx", 10)
     .attr("ry", 10);
 
 svg.append("text")
     .attr("x", width/8 )
     .attr("y", height/4)
-    .attr("dy", "25px")
+    .attr("dy", "20px")
     .attr("dx", "50px")
     .style("text-anchor", "middle")
-    .text("Ale Hanne");
+    .text("Ale")
+    .append("tspan")
+    .attr("x", width/8 )
+    .attr("y", height/4+15)
+    .attr("dy", "20px")
+    .attr("dx", "50px")
+    .text("Hann");
 
 // Create Line Valentine Mies to Ale_Hanne
 svg.append("line")
@@ -157,17 +187,23 @@ var Joreto_Katell = svg
     .attr("x", 6*width/8)
     .attr("y", height/4)
     .attr("width", 100)
-    .attr("height", 40)
+    .attr("height", 45)
     .attr("rx", 10)
     .attr("ry", 10);
 
 svg.append("text")
     .attr("x", 6*width/8 )
     .attr("y", height/4)
-    .attr("dy", "25px")
+    .attr("dy", "20px")
     .attr("dx", "50px")
     .style("text-anchor", "middle")
-    .text("Joreto Katell");
+    .text("Joreto")
+    .append("tspan")
+    .attr("x", 6*width/8 )
+    .attr("y", height/4+15)
+    .attr("dy", "20px")
+    .attr("dx", "50px")
+    .text("Katell");
 
 // Create Line Carmine_Osvaldo to Joreto_Katell
 svg.append("line")
@@ -182,17 +218,23 @@ var Yanick_Cato = svg
     .attr("x", 7*width/8)
     .attr("y", height/4)
     .attr("width", 100)
-    .attr("height", 40)
+    .attr("height", 45)
     .attr("rx", 10)
     .attr("ry", 10);
 
 svg.append("text")
     .attr("x", 7*width/8 )
     .attr("y", height/4)
-    .attr("dy", "25px")
+    .attr("dy", "20px")
     .attr("dx", "50px")
     .style("text-anchor", "middle")
-    .text("Yanick Cato");
+    .text("Yanick")
+    .append("tspan")
+    .attr("x", 7*width/8 )
+    .attr("y", height/4+15)
+    .attr("dy", "20px")
+    .attr("dx", "45px")
+    .text("Cato");
 
 // Create Line Yanick_Cato to Joreto_Katell
 svg.append("line")
@@ -209,17 +251,23 @@ var Elain_Karel = svg
     .attr("x", 4*width/8)
     .attr("y", 2*height/4)
     .attr("width", 100)
-    .attr("height", 40)
+    .attr("height", 45)
     .attr("rx", 10)
     .attr("ry", 10);
 
 svg.append("text")
     .attr("x", 4*width/8 )
     .attr("y", 2*height/4)
-    .attr("dy", "25px")
+    .attr("dy", "20px")
     .attr("dx", "50px")
     .style("text-anchor", "middle")
-    .text("Elain Karel");
+    .text("Elain")
+    .append("tspan")
+    .attr("x", 4*width/8 )
+    .attr("y", 2*height/4+15)
+    .attr("dy", "20px")
+    .attr("dx", "50px")
+    .text("Karel");
 
 
 // Create Line Henk Bodrogi to Elain_Karel
@@ -236,7 +284,7 @@ var Silvia_Marek = svg
     .attr("x", 3*width/8)
     .attr("y", 3*height/4)
     .attr("width", 100)
-    .attr("height", 40)
+    .attr("height", 45)
     .attr("rx", 10)
     .attr("ry", 10)
     .style("visibility", "hidden");
@@ -246,7 +294,7 @@ var Mandor_Vann = svg
     .attr("x", 5*width/8)
     .attr("y", 3*height/4)
     .attr("width", 100)
-    .attr("height", 40)
+    .attr("height", 45)
     .attr("rx", 10)
     .attr("ry", 10)
     .style("visibility", "hidden");
@@ -257,13 +305,14 @@ var textplace= svg
     .append("rect")
     .style("stroke", "none");
 
-textplace.style("fill", "white")
+textplace
     .attr("x", width/8)
     .attr("y", 4*height/4)
     .attr("width", 7*width/8)
     .attr("height", height/4+100)
     .attr("rx", 10)
-    .attr("ry", 10);
+    .attr("ry", 10)
+    .style("visibility", "hidden");
 
 
 var texttitle = svg.append("foreignObject")
@@ -276,25 +325,26 @@ var texttitle = svg.append("foreignObject")
 // Add Data
 Henk_Bodrogi.on("click", function() {
     Carmine_Osvaldo.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Jeroen_Karel.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Elain_Karel.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Ale_Hanne.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Joreto_Katell.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Yanick_Cato.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Valentine_Mies.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Henk_Bodrogi.transition()
-        .style("fill", "#23415A");
+        .style("fill", "#965F00");
 
-    textplace.transition().style("fill", "#23415A");
+    textplace.style("visibility", "visible");
+    textplace.transition().style("fill", "#965F00");
     d3.text("bodrogi.html", function(unparsedData){
-        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px; color:black; font: 12px sans-serif;">' +
+        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px; color:#ECE9E0; font: 12px sans-serif;">' +
             unparsedData+ '</div>')
     });
     svg.selectAll(".invisible").data([]).exit().remove();
@@ -305,25 +355,26 @@ Henk_Bodrogi.on("click", function() {
 
 Carmine_Osvaldo.on("click", function() {
     Henk_Bodrogi.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Jeroen_Karel.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Elain_Karel.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Ale_Hanne.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Joreto_Katell.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Yanick_Cato.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Valentine_Mies.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Carmine_Osvaldo.transition()
-        .style("fill", "#23415A");
+        .style("fill", "#965F00");
 
-    textplace.transition().style("fill", "#23415A");
+    textplace.style("visibility", "visible");
+    textplace.transition().style("fill", "#965F00");
     d3.text("osvaldo.html", function(unparsedData){
-        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px; color:black; font: 12px sans-serif;">' +
+        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px; color:#ECE9E0; font: 12px sans-serif;">' +
             unparsedData+ '</div>')
     });
     svg.selectAll(".invisible").data([]).exit().remove();
@@ -334,25 +385,28 @@ Carmine_Osvaldo.on("click", function() {
 
 Elain_Karel.on("click", function() {
     Henk_Bodrogi.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Jeroen_Karel.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Carmine_Osvaldo.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Ale_Hanne.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Joreto_Katell.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Yanick_Cato.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Valentine_Mies.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
+    Silvia_Marek.transition()
+        .style("fill", "red");
     Elain_Karel.transition()
-        .style("fill", "#23415A");
+        .style("fill", "#965F00");
 
-    textplace.transition().style("fill", "#23415A");
+    textplace.style("visibility", "visible");
+    textplace.transition().style("fill", "#965F00");
     d3.text("eKarel.html", function(unparsedData){
-        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px;  color:black; font: 12px sans-serif;">' +
+        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px;  color:#ECE9E0; font: 12px sans-serif;">' +
             unparsedData+ '</div>')
     });
     svg.selectAll(".invisible").data([]).exit().remove();
@@ -383,10 +437,16 @@ Elain_Karel.on("click", function() {
         .attr("class", "invisible")
         .attr("x", 3*width/8 )
         .attr("y", 3*height/4)
-        .attr("dy", "25px")
+        .attr("dy", "20px")
         .attr("dx", "50px")
         .style("text-anchor", "middle")
-        .text("Silvia Marek");
+        .text("Silvia")
+        .append("tspan")
+        .attr("x", 3*width/8 )
+        .attr("y", 3*height/4+15)
+        .attr("dy", "20px")
+        .attr("dx", "50px")
+        .text("Marek");
 
     svg.append("g")
         .append("path")
@@ -411,10 +471,16 @@ Elain_Karel.on("click", function() {
         .attr("class", "invisible")
         .attr("x", 5*width/8 )
         .attr("y", 3*height/4)
-        .attr("dy", "25px")
+        .attr("dy", "20px")
         .attr("dx", "50px")
         .style("text-anchor", "middle")
-        .text("Mandor Vann");
+        .text("Mandor")
+        .append("tspan")
+        .attr("x", 5*width/8 )
+        .attr("y", 3*height/4+15)
+        .attr("dy", "20px")
+        .attr("dx", "50px")
+        .text("Vann");
 
     svg.append("g")
         .append("path")
@@ -441,25 +507,26 @@ Elain_Karel.on("click", function() {
 
 Jeroen_Karel.on("click", function() {
     Henk_Bodrogi.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Elain_Karel.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Carmine_Osvaldo.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Ale_Hanne.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Joreto_Katell.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Yanick_Cato.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Valentine_Mies.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Jeroen_Karel.transition()
-        .style("fill", "#23415A");
+        .style("fill", "#965F00");
 
-    textplace.transition().style("fill", "#23415A");
+    textplace.style("visibility", "visible");
+    textplace.transition().style("fill", "#965F00");
     d3.text("jKarel.html", function(unparsedData){
-        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px;  color:black; font: 12px sans-serif;">' +
+        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px;  color:#ECE9E0; font: 12px sans-serif;">' +
             unparsedData+ '</div>')
     });
     svg.selectAll(".invisible").data([]).exit().remove();
@@ -470,27 +537,28 @@ Jeroen_Karel.on("click", function() {
 
 Mandor_Vann.on("click", function() {
     Henk_Bodrogi.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Elain_Karel.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Carmine_Osvaldo.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Silvia_Marek.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Ale_Hanne.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Joreto_Katell.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Yanick_Cato.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Valentine_Mies.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Mandor_Vann.transition()
-        .style("fill", "#23415A");
+        .style("fill", "#965F00");
 
-    textplace.transition().style("fill", "#23415A");
+    textplace.style("visibility", "visible");
+    textplace.transition().style("fill", "#965F00");
     d3.text("vann.html", function(unparsedData){
-        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px;  color:black; font: 12px sans-serif;">' +
+        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px;  color:#ECE9E0; font: 12px sans-serif;">' +
             unparsedData+ '</div>')
     });
     d3.event.stopPropagation();
@@ -498,28 +566,28 @@ Mandor_Vann.on("click", function() {
 
 Silvia_Marek.on("click", function() {
     Henk_Bodrogi.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Elain_Karel.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Carmine_Osvaldo.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Mandor_Vann.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Ale_Hanne.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Joreto_Katell.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Yanick_Cato.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Valentine_Mies.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Silvia_Marek.transition()
-        .style("fill", "#23415A");
+        .style("fill", "#965F00");
 
-
-    textplace.transition().style("fill", "#23415A");
+    textplace.style("visibility", "visible");
+    textplace.transition().style("fill", "#965F00");
     d3.text("marek.html", function(unparsedData){
-        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px;  color:black; font: 12px sans-serif;">' +
+        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px;  color:#ECE9E0; font: 12px sans-serif;">' +
             unparsedData+ '</div>')
     });
     d3.event.stopPropagation();
@@ -527,23 +595,24 @@ Silvia_Marek.on("click", function() {
 
 Valentine_Mies.on("click", function() {
     Henk_Bodrogi.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Elain_Karel.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Carmine_Osvaldo.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Ale_Hanne.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Joreto_Katell.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Yanick_Cato.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Valentine_Mies.transition()
-        .style("fill", "#23415A");
+        .style("fill", "#965F00");
 
-    textplace.transition().style("fill", "#23415A");
+    textplace.style("visibility", "visible");
+    textplace.transition().style("fill", "#965F00");
     d3.text("mies.html", function(unparsedData){
-        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px;  color:black; font: 12px sans-serif;">' +
+        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px;  color:#ECE9E0; font: 12px sans-serif;">' +
             unparsedData+ '</div>')
     });
     svg.selectAll(".invisible").data([]).exit().remove();
@@ -554,23 +623,24 @@ Valentine_Mies.on("click", function() {
 
 Ale_Hanne.on("click", function() {
     Henk_Bodrogi.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Elain_Karel.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Carmine_Osvaldo.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Valentine_Mies.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Joreto_Katell.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Yanick_Cato.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Ale_Hanne.transition()
-        .style("fill", "#23415A");
+        .style("fill", "#965F00");
 
-    textplace.transition().style("fill", "#23415A");
+    textplace.style("visibility", "visible");
+    textplace.transition().style("fill", "#965F00");
     d3.text("hanne.html", function(unparsedData){
-        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px;  color:black; font: 12px sans-serif;">' +
+        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px;  color:#ECE9E0; font: 12px sans-serif;">' +
             unparsedData+ '</div>')
     });
     svg.selectAll(".invisible").data([]).exit().remove();
@@ -581,25 +651,26 @@ Ale_Hanne.on("click", function() {
 
 Joreto_Katell.on("click", function() {
     Henk_Bodrogi.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Elain_Karel.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Carmine_Osvaldo.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Jeroen_Karel.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Valentine_Mies.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Ale_Hanne.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Yanick_Cato.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Joreto_Katell.transition()
-        .style("fill", "#23415A");
+        .style("fill", "#965F00");
 
-    textplace.transition().style("fill", "#23415A");
+    textplace.style("visibility", "visible");
+    textplace.transition().style("fill", "#965F00");
     d3.text("katell.html", function(unparsedData){
-        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px;  color:black; font: 12px sans-serif;">' +
+        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px;  color:#ECE9E0; font: 12px sans-serif;">' +
             unparsedData+ '</div>')
     });
     svg.selectAll(".invisible").data([]).exit().remove();
@@ -610,25 +681,26 @@ Joreto_Katell.on("click", function() {
 
 Yanick_Cato.on("click", function() {
     Henk_Bodrogi.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Elain_Karel.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Carmine_Osvaldo.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Jeroen_Karel.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Valentine_Mies.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Ale_Hanne.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Joreto_Katell.transition()
-        .style("fill", "steelblue");
+        .style("fill", "#29493B");
     Yanick_Cato.transition()
-        .style("fill", "#23415A");
+        .style("fill", "#965F00");
 
-    textplace.transition().style("fill", "#23415A");
+    textplace.style("visibility", "visible");
+    textplace.transition().style("fill", "#965F00");
     d3.text("cato.html", function(unparsedData){
-        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px;  color:black; font: 12px sans-serif;">' +
+        texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px;  color:#ECE9E0; font: 12px sans-serif;">' +
             unparsedData+ '</div>')
     });
     svg.selectAll(".invisible").data([]).exit().remove();
