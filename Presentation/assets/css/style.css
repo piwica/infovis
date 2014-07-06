@@ -148,37 +148,40 @@ body {
 }
 #section2 {
     top: 130px;
-    height: 1910px;
+    height: 1000px;
 }
 #section3 {
-    top: -100px;
-    height: 1400px;
+    top: 130px;
+    height: 2000px;
 }
+
 #section4 {
-    top: -180px;
-    height: 1900px;
-    overflow: hidden;
+    top: 130px;
+    height: 1500px;
 }
 #section5 {
-    top: -170px;
-    height: 560px;
+    top: 130px;
+    height: 1000px;
 }
 #section6 {
-    top: -170px;
-    height: 900px;
-    overflow: hidden;
+    top: 130px;
+    height: 1000px;
 }
 #section7 {
-    top: -150px;
-    height: 1200px;
-}
-#section8 {
-    height: 580px;
-}
-#section9 {
+    top: 130px;
     height: 1000px;
-    padding-top: 30px;
 }
+
+#section8 {
+    top: 130px;
+    height: 1000px;
+}
+
+#section9 {
+    top: 130px;
+    height: 1000px;
+}
+
 #section1background {
     position: absolute;
     top: 50px;
