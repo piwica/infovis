@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e76425-a1a9-4b4e-89e7-e70521d0fc70" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pregunta1/script.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pregunta1/app.css" afterPath="$PROJECT_DIR$/pregunta1/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pregunta2/app.css" afterPath="$PROJECT_DIR$/pregunta2/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pregunta2/script.js" afterPath="$PROJECT_DIR$/pregunta2/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pregunta1/script1.js" afterPath="$PROJECT_DIR$/pregunta1/script1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Presentation/index.html" afterPath="$PROJECT_DIR$/Presentation/index.html" />
     </list>
     <ignored path="ProcessingExample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,6 +43,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Presentation/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="71" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.31267604" vertical-offset="669" max-vertical-offset="1965">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Presentation/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="26" selection-start="682" selection-end="683" vertical-scroll-proportion="378.15384" vertical-offset="10252" max-vertical-offset="10605">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pregunta2/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pregunta2/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="25" selection-start="2272" selection-end="2272" vertical-scroll-proportion="0.4262295" vertical-offset="834" max-vertical-offset="1200">
+            <state line="66" column="25" selection-start="2272" selection-end="2272" vertical-scroll-proportion="-6.0" vertical-offset="834" max-vertical-offset="1200">
               <folding />
             </state>
           </provider>
@@ -104,11 +121,11 @@
         <option value="$PROJECT_DIR$/Presentation/assets/css/style.css" />
         <option value="$PROJECT_DIR$/pregunta6/app.css" />
         <option value="$PROJECT_DIR$/pregunta6/script.js" />
-        <option value="$PROJECT_DIR$/Presentation/index.html" />
         <option value="$PROJECT_DIR$/pregunta1/app.css" />
         <option value="$PROJECT_DIR$/pregunta1/script1.js" />
         <option value="$PROJECT_DIR$/pregunta2/app.css" />
         <option value="$PROJECT_DIR$/pregunta2/script.js" />
+        <option value="$PROJECT_DIR$/Presentation/index.html" />
       </list>
     </option>
   </component>
@@ -479,13 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Presentation/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="17" selection-start="626" selection-end="626" vertical-scroll-proportion="-5.1923075" vertical-offset="210" max-vertical-offset="10605">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pregunta6/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="21" selection-start="78" selection-end="78" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="285">
@@ -515,21 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Presentation/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="52" selection-start="2574" selection-end="2574" vertical-scroll-proportion="-1.62" vertical-offset="924" max-vertical-offset="1950">
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pregunta1/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="17" selection-start="427" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="765">
@@ -555,20 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pregunta1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="392">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pregunta2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="392">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pregunta6/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="4" selection-start="596" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="463" max-vertical-offset="1275">
@@ -585,8 +566,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pregunta2/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="25" selection-start="2272" selection-end="2272" vertical-scroll-proportion="0.4262295" vertical-offset="834" max-vertical-offset="1200">
+        <state line="66" column="25" selection-start="2272" selection-end="2272" vertical-scroll-proportion="-6.0" vertical-offset="834" max-vertical-offset="1200">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pregunta2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="392">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pregunta1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="392">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Presentation/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="26" selection-start="682" selection-end="683" vertical-scroll-proportion="378.15384" vertical-offset="10252" max-vertical-offset="10605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Presentation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="71" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.31267604" vertical-offset="669" max-vertical-offset="1965">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
