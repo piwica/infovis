@@ -1,4 +1,4 @@
-chart("data.csv", "green", "orange");
+chart("DATA_POK_COLOR.CSV", "green", "orange");
 
 var datearray = [];
 var colorrangePositive = [];
@@ -115,7 +115,8 @@ function chart(csvpath, colorPositive, colorNegative) {
             .attr("d", function(d) {
                 return area(d.values); })
             .style("fill", function(d, i) {
-                d.color=d.values[0].type==="positive"?zPositive(i): zNegative(i);
+                console.log(d.values[0]);
+                d.color=d.values[0].color;
                 return d.color;});
 
 
