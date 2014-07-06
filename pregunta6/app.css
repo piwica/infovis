@@ -31,7 +31,13 @@ rect:hover {
 text {
     font:  13px "Helvetica Neue";
     pointer-events: none;
-    fill: black;
+    fill: #ECE9E0;
+}
+
+text.odd {
+    font:  13px "Helvetica Neue";
+    pointer-events: none;
+    fill: #f1d868;
 }
 
 .textline {
@@ -46,21 +52,21 @@ line{
 }
 
 .circle1{
-    fill: #587094;
-    stroke: #587094;
+    fill: #29493B;
+    stroke: #29493B;
     pointer-events: visible;
     cursor: pointer;
 }
 
 .circle2{
-    fill: steelblue;
-    stroke: steelblue;
+    fill: #1F2A25;
+    stroke: #1F2A25;
     pointer-events: visible;
     cursor: pointer;
 }
 .circle3{
-    fill: #f11c17;
-    stroke: #f11c17;
+    fill: #CF4440;
+    stroke: #CF4440;
     pointer-events: visible;
     cursor: pointer;
 }

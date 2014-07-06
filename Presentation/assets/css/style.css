@@ -19,6 +19,11 @@ div {
     display: block;
 }
 
+h1{
+    color:#ECE9E0;
+    font-size: 40px;
+}
+
 body {
     width: 100%;
     font-family:  arial, sans-serif;

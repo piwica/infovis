@@ -76,7 +76,7 @@ svg.append("foreignObject")
     .attr("y", h-10)
     .attr("width", 80)
     .attr("height", 100)
-    .html('<div class="text" style="width: 80px; color:black; font: 12px sans-serif;">' +
+    .html('<div class="text" style="width: 70px; color:#ECE9E0; font: 12px sans-serif;">' +
         'Increasing concern about health problems in Eladis</div>');
 
 svg.append("line")
@@ -86,6 +86,7 @@ svg.append("line")
     .attr("y2",h-35);
 
 svg.append("text")
+    .attr("class", "odd")
     .attr("x", 2*w/10)
     .attr("y", h-20)
     .style("text-anchor", "middle")
@@ -96,7 +97,7 @@ svg.append("foreignObject")
     .attr("y", h-10)
     .attr("width", 80)
     .attr("height", 100)
-    .html('<div class="text" style="width: 80px; color:black; font: 12px sans-serif;">' +
+    .html('<div class="text" style="width: 70px; color:#f1d868; font: 12px sans-serif;">' +
         'Formation of POK.<br/> Henk Bodrogi is the leader</div>');
 
 svg.append("line")
@@ -116,7 +117,7 @@ svg.append("foreignObject")
     .attr("y", h-10)
     .attr("width", 80)
     .attr("height", 100)
-    .html('<div class="text" style="width: 80px; color:black; font: 12px sans-serif;">' +
+    .html('<div class="text" style="width: 70px; color:#ECE9E0; font: 12px sans-serif;">' +
         'Juliana Vann dies</div>');
 
 svg.append("line")
@@ -126,6 +127,7 @@ svg.append("line")
     .attr("y2",h-35);
 
 svg.append("text")
+    .attr("class", "odd")
     .attr("x", 5*w/10)
     .attr("y", h-20)
     .style("text-anchor", "middle")
@@ -136,7 +138,7 @@ svg.append("foreignObject")
     .attr("y", h-10)
     .attr("width", 80)
     .attr("height", 100)
-    .html('<div class="text" style="width: 80px; color:black; font: 12px sans-serif;">' +
+    .html('<div class="text" style="width: 70px; color:#f1d868; font: 12px sans-serif;">' +
         'Elian Karel assumes leadership of POK</div>');
 
 svg.append("line")
@@ -156,7 +158,7 @@ svg.append("foreignObject")
     .attr("y", h-10)
     .attr("width", 80)
     .attr("height", 100)
-    .html('<div class="text" style="width: 80px; color:black; font: 12px sans-serif;">' +
+    .html('<div class="text" style="width: 70px; color:#ECE9E0; font: 12px sans-serif;">' +
         'Elian Karel is murdered</div>');
 
 svg.append("line")
@@ -166,6 +168,7 @@ svg.append("line")
     .attr("y2",h-35);
 
 svg.append("text")
+    .attr("class", "odd")
     .attr("x", 8*w/10)
     .attr("y", h-20)
     .style("text-anchor", "middle")
@@ -176,7 +179,7 @@ svg.append("foreignObject")
     .attr("y", h-10)
     .attr("width", 80)
     .attr("height", 100)
-    .html('<div class="text" style="width: 80px; color:black; font: 12px sans-serif;">' +
+    .html('<div class="text" style="width: 70px; color:#f1d868; font: 12px sans-serif;">' +
         'Leadership of POK</div>');
 
 var circles =[
