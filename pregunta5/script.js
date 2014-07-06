@@ -12,7 +12,7 @@ function chart(csvpath, colorPositive, colorNegative) {
         colorrangePositive = ["#045A8D", "#2B8CBE", "#74A9CF", "#A6BDDB", "#D0D1E6", "#F1EEF6"];
     }
     else if (colorPositive == "green") {
-        colorrangePositive = ["#004529", "#238443", "#78c679", "#d9f0a3", "#ffffe5", "#addd8e"];
+        colorrangePositive = ["#004529", "#238443", "#78c679", "#6baed6", "#ffffe5", "#addd8e"];
     }
     else if (colorPositive == "pink") {
         colorrangePositive = ["#980043", "#DD1C77", "#DF65B0", "#C994C7", "#D4B9DA", "#F1EEF6"];
@@ -34,7 +34,7 @@ function chart(csvpath, colorPositive, colorNegative) {
         colorrangeNegative = ["#B30000", "#E34A33", "#FC8D59", "#FDBB84", "#FDD49E", "#FEF0D9"];
     }
     else if (colorNegative == "red") {
-        colorrangeNegative = ["#b30000", "#ef6548", "#fdbb84", "#fee8c8", "#feb24c", "#fed976"];
+        colorrangeNegative = ["#800026", "#e31a1c", "#fd8d3c", "#fed976", "#ffffcc", "#fed976"];
     }
 
     strokecolorPositive = colorrangePositive[0];
@@ -203,5 +203,47 @@ function chart(csvpath, colorPositive, colorNegative) {
                 mousex = d3.mouse(this);
                 mousex = mousex[0] + 5;
                 vertical.style("left", mousex + "px")});
+        svg.append("text")
+            .attr("class", "labels")
+            .attr("x", 680)
+            .attr("y", 300)
+            .style("text-anchor", "middle")
+            .text("activist");
+        svg.append("text")
+            .attr("class", "labels")
+            .attr("x", 700)
+            .attr("y", 240)
+            .style("text-anchor", "middle")
+            .text("arrest");
+        svg.append("text")
+            .attr("class", "labels")
+            .attr("x", 680)
+            .attr("y", 190)
+            .style("text-anchor", "middle")
+            .text("protector");
+        svg.append("text")
+            .attr("class", "labels")
+            .attr("x", 680)
+            .attr("y", 120)
+            .style("text-anchor", "middle")
+            .text("protest");
+        svg.append("text")
+            .attr("class", "labels")
+            .attr("x", 520)
+            .attr("y", 180)
+            .style("text-anchor", "middle")
+            .text("spokesman");
+        svg.append("text")
+            .attr("class", "labels")
+            .attr("x", 890)
+            .attr("y", 140)
+            .style("text-anchor", "middle")
+            .text("terrorist");
+        svg.append("text")
+            .attr("class", "labels")
+            .attr("x", 780)
+            .attr("y", 110)
+            .style("text-anchor", "middle")
+            .text("vandals");
     });
 }

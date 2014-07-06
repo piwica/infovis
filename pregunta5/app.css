@@ -23,3 +23,8 @@ button {
     right: 50px;
     top: 10px;
 }
+
+.labels{
+    font:  15px "Helvetica Neue";
+    fill: white;
+}

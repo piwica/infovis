@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e76425-a1a9-4b4e-89e7-e70521d0fc70" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pregunta5/app.css" afterPath="$PROJECT_DIR$/pregunta5/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pregunta5/script.js" afterPath="$PROJECT_DIR$/pregunta5/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,7 +30,7 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pregunta6/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="187" column="25" selection-start="4525" selection-end="4525" vertical-scroll-proportion="-7.576923" vertical-offset="2608" max-vertical-offset="4875">
+            <state line="261" column="44" selection-start="6783" selection-end="6946" vertical-scroll-proportion="-8.153846" vertical-offset="3703" max-vertical-offset="4875">
               <folding>
                 <marker date="1404655301000" expanded="true" signature="1716:1723" placeholder="..." />
                 <marker date="1404655301000" expanded="false" signature="1716:1764" placeholder="..." />
@@ -39,6 +40,15 @@
                 <marker date="1404655301000" expanded="false" signature="3701:3749" placeholder="..." />
                 <marker date="1404655301000" expanded="false" signature="4184:4232" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pregunta6/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="4" selection-start="409" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1185">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,10 +74,19 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pregunta5/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="18" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.22727273" vertical-offset="600" max-vertical-offset="3180">
+            <state line="244" column="25" selection-start="8576" selection-end="8576" vertical-scroll-proportion="0.8181818" vertical-offset="3390" max-vertical-offset="3825">
               <folding>
-                <marker date="1404660493000" expanded="false" signature="5881:5943" placeholder="..." />
+                <marker date="1404662011000" expanded="false" signature="5881:5943" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pregunta5/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="525">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,24 +104,6 @@
         <entry file="file://$PROJECT_DIR$/pregunta5/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="315">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Presentation/assets/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="12" selection-start="2971" selection-end="2971" vertical-scroll-proportion="0.0" vertical-offset="1878" max-vertical-offset="10485">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pregunta6/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="20" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0" vertical-offset="733" max-vertical-offset="1185">
               <folding />
             </state>
           </provider>
@@ -155,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pregunta5/index.html" />
         <option value="$PROJECT_DIR$/Presentation/assets/css/style.css.html" />
         <option value="$PROJECT_DIR$/Presentation/assets/js/modernizr.min.js" />
         <option value="$PROJECT_DIR$/Presentation/assets/js/jquery.mousewheel.min.js" />
@@ -170,6 +170,7 @@
         <option value="$PROJECT_DIR$/pregunta5/data.csv" />
         <option value="$PROJECT_DIR$/pregunta5/DATA_POK.CSV" />
         <option value="$PROJECT_DIR$/pregunta5/DATA_POK_COLOR.CSV" />
+        <option value="$PROJECT_DIR$/pregunta5/app.css" />
         <option value="$PROJECT_DIR$/pregunta5/script.js" />
       </list>
     </option>
@@ -222,6 +223,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ProcessingExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProcessingExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProcessingExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pregunta6" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,11 +424,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Presentation/assets/images/section1_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="82" selection-start="1574" selection-end="1574" vertical-scroll-proportion="-3.9166667" vertical-offset="551" max-vertical-offset="1155" />
@@ -436,13 +446,6 @@
     <entry file="file://$PROJECT_DIR$/pregunta1/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="20" selection-start="195" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pregunta6/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="20" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0" vertical-offset="733" max-vertical-offset="1185">
           <folding />
         </state>
       </provider>
@@ -483,21 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pregunta6/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="25" selection-start="4525" selection-end="4525" vertical-scroll-proportion="-7.576923" vertical-offset="2608" max-vertical-offset="4875">
-          <folding>
-            <marker date="1404655301000" expanded="true" signature="1716:1723" placeholder="..." />
-            <marker date="1404655301000" expanded="false" signature="1716:1764" placeholder="..." />
-            <marker date="1404655301000" expanded="false" signature="2224:2272" placeholder="..." />
-            <marker date="1404655301000" expanded="false" signature="2731:2779" placeholder="..." />
-            <marker date="1404655301000" expanded="false" signature="3206:3254" placeholder="..." />
-            <marker date="1404655301000" expanded="false" signature="3701:3749" placeholder="..." />
-            <marker date="1404655301000" expanded="false" signature="4184:4232" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pregunta6/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="21" selection-start="78" selection-end="78" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="285">
@@ -533,11 +521,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pregunta6/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="4" selection-start="409" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pregunta5/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pregunta6/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="261" column="44" selection-start="6783" selection-end="6946" vertical-scroll-proportion="-8.153846" vertical-offset="3703" max-vertical-offset="4875">
+          <folding>
+            <marker date="1404655301000" expanded="true" signature="1716:1723" placeholder="..." />
+            <marker date="1404655301000" expanded="false" signature="1716:1764" placeholder="..." />
+            <marker date="1404655301000" expanded="false" signature="2224:2272" placeholder="..." />
+            <marker date="1404655301000" expanded="false" signature="2731:2779" placeholder="..." />
+            <marker date="1404655301000" expanded="false" signature="3206:3254" placeholder="..." />
+            <marker date="1404655301000" expanded="false" signature="3701:3749" placeholder="..." />
+            <marker date="1404655301000" expanded="false" signature="4184:4232" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pregunta5/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="18" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.22727273" vertical-offset="600" max-vertical-offset="3180">
+        <state line="244" column="25" selection-start="8576" selection-end="8576" vertical-scroll-proportion="0.8181818" vertical-offset="3390" max-vertical-offset="3825">
           <folding>
-            <marker date="1404660493000" expanded="false" signature="5881:5943" placeholder="..." />
+            <marker date="1404662011000" expanded="false" signature="5881:5943" placeholder="..." />
           </folding>
         </state>
       </provider>
