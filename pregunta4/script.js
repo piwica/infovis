@@ -129,7 +129,7 @@ svg1.append("rect")
     .attr("x", diameter)
     .attr("y", 100)
     .attr("width", 500 )
-    .attr("height", diameter/4);
+    .attr("height", diameter/3.5);
 
 svg1.append("line")
     .attr("class", "table")
@@ -143,33 +143,61 @@ svg1.append("line")
     .attr("x1", diameter+200)
     .attr("y1", 100)
     .attr("x2", diameter+200)
-    .attr("y2", 100+diameter/4);
+    .attr("y2", 100+diameter/3.5);
 
 svg1.append("line")
     .attr("class", "table")
     .attr("x1", diameter+400)
     .attr("y1", 100)
     .attr("x2", diameter+400)
-    .attr("y2", 100+diameter/4);
+    .attr("y2", 100+diameter/3.5);
 
 svg1.append("text")
+    .attr("class", "table")
     .attr("x", diameter )
     .attr("y", 100)
     .attr("dy", "13px")
-    .attr("dx", "20px")
+    .attr("dx", "10px")
     .text("To");
+
+var toText = svg1.append("foreignObject")
+        .attr("class", "table")
+        .attr("x", diameter+10)
+        .attr("y", 120)
+        .attr("width", 190)
+        .attr("height", 150);
+
+
+
 svg1.append("text")
+    .attr("class", "table")
     .attr("x", diameter+200 )
     .attr("y", 100)
     .attr("dy", "13px")
-    .attr("dx", "20px")
+    .attr("dx", "10px")
     .text("Subject");
+
+var subjectText = svg1.append("foreignObject")
+    .attr("class", "table")
+    .attr("x", diameter+210)
+    .attr("y", 120)
+    .attr("width", 190)
+    .attr("height", 150);
+
 svg1.append("text")
+    .attr("class", "table")
     .attr("x", diameter+400 )
     .attr("y", 100)
     .attr("dy", "13px")
-    .attr("dx", "20px")
+    .attr("dx", "10px")
     .text("Replies");
+
+var repliesText = svg1.append("foreignObject")
+    .attr("class", "table")
+    .attr("x", diameter+410)
+    .attr("y", 120)
+    .attr("width", 190)
+    .attr("height", 150);
 
 
 d3.json("data.json", function(classes) {
@@ -212,14 +240,24 @@ d3.json("data.json", function(classes) {
         node
             .classed("node--target", function(n) { return n.target; })
             .classed("node--source", function(n) { return n.source; });
-
+        svg1.selectAll(".table").style("visibility", "visible");
         fillthetable(d);
     }
 
     function fillthetable(d){
-        d.mails.each(function(n){
-            console.log(n);
+        var to ="";
+        var subject ="";
+        var replies = "";
+        if (d.mails !== undefined){
+        d.mails.forEach(function(element, index, array){
+            to += element.to+"<br/>";
+            subject += element.subject+"<br/>";
+            replies += element.replies+"<br/>";
         });
+        }
+        toText.html("<div class='tableText' style='width:180; height:150;word-wrap: break-word;'>"+to+"</div>");
+        subjectText.html("<div class='tableText' style='width:180;height:150;word-wrap: break-word;'>"+subject+"</div>");
+        repliesText.html("<div class='tableText'>"+replies+"</div>");
 
     }
 
@@ -231,6 +269,8 @@ d3.json("data.json", function(classes) {
         node
             .classed("node--target", false)
             .classed("node--source", false);
+        svg1.selectAll(".table").style("visibility", "hidden");
+
     }
 
     d3.select(self.frameElement).style("height", diameter + "px");
@@ -268,7 +308,6 @@ d3.json("data.json", function(classes) {
         nodes.forEach(function(d) {
             map[d.name] = d;
         });
-
 
         // For each import, construct a link from the source to target node.
         nodes.forEach(function(d) {

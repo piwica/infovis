@@ -8,9 +8,15 @@ text{
     fill: black;
 }
 
+.tableText{
+    font:  11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #bbb;
+}
+
 .table{
     fill:none;
     stroke:#f1a620;
+    visibility: hidden;
 }
 
 .node:hover {
