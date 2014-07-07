@@ -43,7 +43,7 @@ function chart(csvpath, colorPositive, colorNegative) {
     var format = d3.time.format("%Y");
 
     var margin = {top: 20, right: 40, bottom: 30, left: 30};
-    var width = 1010 - margin.left - margin.right;
+    var width = 990 - margin.left - margin.right;
     var height = 400 - margin.top - margin.bottom;
 
     var tooltip = d3.select("body")
