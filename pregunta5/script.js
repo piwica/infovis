@@ -1,4 +1,4 @@
-chart("DATA_POK_COLOR.CSV", "green", "red");
+chart("data.csv", "green", "red");
 
 var datearray = [];
 var colorrangePositive = [];
@@ -12,7 +12,7 @@ function chart(csvpath, colorPositive, colorNegative) {
         colorrangePositive = ["#045A8D", "#2B8CBE", "#74A9CF", "#A6BDDB", "#D0D1E6", "#F1EEF6"];
     }
     else if (colorPositive == "green") {
-        colorrangePositive = ["#004529", "#238443", "#78c679", "#6baed6", "#ffffe5", "#addd8e"];
+        colorrangePositive = ["#004529", "#238443", "#78c679", "#7bccc4", "#41b6c4", "c7e9b4"];
     }
     else if (colorPositive == "pink") {
         colorrangePositive = ["#980043", "#DD1C77", "#DF65B0", "#C994C7", "#D4B9DA", "#F1EEF6"];
@@ -34,7 +34,7 @@ function chart(csvpath, colorPositive, colorNegative) {
         colorrangeNegative = ["#B30000", "#E34A33", "#FC8D59", "#FDBB84", "#FDD49E", "#FEF0D9"];
     }
     else if (colorNegative == "red") {
-        colorrangeNegative = ["#800026", "#e31a1c", "#fd8d3c", "#fed976", "#ffffcc", "#fed976"];
+        colorrangeNegative = ["#7f0000", "#d7301f", "#980043", "#fd8d3c", "#993404", "#fb6a4a", "#ce1256"];
     }
 
     strokecolorPositive = colorrangePositive[0];
@@ -168,7 +168,7 @@ function chart(csvpath, colorPositive, colorNegative) {
                     tooltip
                         .style("left", (mousex+50) + "px" )
                         .style("top", (mousey+50) + "px" )
-                        .html( "<div style=' text-align:center; width:80px; height:15px; background-color:"+ d.color+"'><p>" + d.key + ":" + pro + "</p></div>" )
+                        .html( "<div style=' color:white;text-align:center; width:80px; height:15px; background-color:"+ d.color+"'><p style='color:white; '>" + d.key + ":" + pro + "</p></div>" )
                        .style("visibility", "visible");
 
             })
@@ -179,7 +179,7 @@ function chart(csvpath, colorPositive, colorNegative) {
                     .attr("opacity", "1");
                 d3.select(this)
                     .classed("hover", false)
-                    .attr("stroke-width", "0px"), tooltip.html( "<p>" + d.key + "<br>" + pro + "</p>" ).style("visibility", "hidden");
+                    .attr("stroke-width", "0px"), tooltip.html( "<p style='color:white;'>" + d.key + "<br>" + pro + "</p>" ).style("visibility", "hidden");
             })
 
         var vertical = d3.select(".chart")
@@ -205,45 +205,75 @@ function chart(csvpath, colorPositive, colorNegative) {
                 vertical.style("left", mousex + "px")});
         svg.append("text")
             .attr("class", "labels")
-            .attr("x", 680)
-            .attr("y", 300)
+            .attr("x", 640)
+            .attr("y", 295)
             .style("text-anchor", "middle")
             .text("activist");
         svg.append("text")
             .attr("class", "labels")
-            .attr("x", 700)
-            .attr("y", 240)
+            .attr("x", 645)
+            .attr("y", 255)
             .style("text-anchor", "middle")
             .text("arrest");
         svg.append("text")
             .attr("class", "labels")
-            .attr("x", 680)
-            .attr("y", 190)
+            .attr("x", 645)
+            .attr("y", 215)
             .style("text-anchor", "middle")
-            .text("protector");
+            .text("contamin");
         svg.append("text")
             .attr("class", "labels")
-            .attr("x", 680)
-            .attr("y", 120)
+            .attr("x", 900)
+            .attr("y", 200)
+            .style("text-anchor", "middle")
+            .text("crimin");
+        svg.append("text")
+            .attr("class", "labels")
+            .attr("x", 645)
+            .attr("y", 198)
+            .style("text-anchor", "middle")
+            .text("death");
+        svg.append("text")
+            .attr("class", "labels")
+            .attr("x", 800)
+            .attr("y", 185)
+            .style("text-anchor", "middle")
+            .text("forc");
+        svg.append("text")
+            .attr("class", "labels")
+            .attr("x", 640)
+            .attr("y", 155)
+            .style("text-anchor", "middle")
+            .text("health");
+        svg.append("text")
+            .attr("class", "labels")
+            .attr("x", 810)
+            .attr("y", 145)
+            .style("text-anchor", "middle")
+            .text("peac");
+        svg.append("text")
+            .attr("class", "labels")
+            .attr("x", 640)
+            .attr("y", 95)
             .style("text-anchor", "middle")
             .text("protest");
         svg.append("text")
             .attr("class", "labels")
-            .attr("x", 520)
-            .attr("y", 180)
+            .attr("x", 730)
+            .attr("y", 157)
             .style("text-anchor", "middle")
-            .text("spokesman");
+            .text("violen");
         svg.append("text")
             .attr("class", "labels")
-            .attr("x", 890)
-            .attr("y", 140)
+            .attr("x", 813)
+            .attr("y", 97)
+            .style("text-anchor", "middle")
+            .text("threat");
+        svg.append("text")
+            .attr("class", "labels")
+            .attr("x", 900)
+            .attr("y", 155)
             .style("text-anchor", "middle")
             .text("terrorist");
-        svg.append("text")
-            .attr("class", "labels")
-            .attr("x", 780)
-            .attr("y", 110)
-            .style("text-anchor", "middle")
-            .text("vandals");
     });
 }
