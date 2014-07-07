@@ -13,6 +13,24 @@ text{
     color: #ECE9E0;
 }
 
+.POK{
+    color: #fb8072 !important;
+    fill:#fb8072 !important:
+}
+
+.Stalking{
+    color: #ECE9E0 !important;
+    fill:#ECE9E0 !important:
+}
+.invisible{
+    visibility: hidden;
+}
+
+.Leaving{
+    color: #80b1d3 !important;
+    fill: #80b1d3 !important;
+}
+
 .table{
     fill:none;
     stroke:#f1a620;
@@ -38,13 +56,14 @@ text{
     fill: #fb8072;
 }
 .Administration{
-    fill: #80b1d3;
+    fill: #ff7f00;
+
 }
 .Facilities{
     fill:#f4cae4;
 }
 .Executive{
-    fill: #ff7f00;
+    fill: #80b1d3;
 }
 .Engineering{
     fill: #f781bf;

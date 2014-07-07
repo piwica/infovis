@@ -126,6 +126,24 @@ svg1.append("text")
     .attr("dx", "20px")
     .text("Engineering");
 
+svg1.append("text")
+    .attr("class", "Stalking invisible")
+    .attr("x", diameter )
+    .attr("y", 60)
+    .text("e-mails that support Isia Vann stalks Rachel Pantanal ");
+
+svg1.append("text")
+    .attr("class", "POK invisible")
+    .attr("x", diameter )
+    .attr("y", 75)
+    .text("e-mails that support POK into GAStech");
+
+svg1.append("text")
+    .attr("class", "Leaving invisible")
+    .attr("x", diameter )
+    .attr("y", 90)
+    .text("e-mails that support GAStech executives leaving Kronos");
+
 //The table
 svg1.append("rect")
     .attr("class", "table")
@@ -199,7 +217,7 @@ var repliesText = svg1.append("foreignObject")
     .attr("class", "table")
     .attr("x", diameter+310)
     .attr("y", 120)
-    .attr("width", 100)
+    .attr("width", 10)
     .attr("height", 150);
 
 
@@ -244,6 +262,7 @@ d3.json("data.json", function(classes) {
             .classed("node--target", function(n) { return n.target; })
             .classed("node--source", function(n) { return n.source; });
         svg1.selectAll(".table").style("visibility", "visible");
+        svg1.selectAll(".invisible").style("visibility", "visible");
         fillthetable(d);
     }
 
@@ -253,9 +272,9 @@ d3.json("data.json", function(classes) {
         var replies = "";
         if (d.mails !== undefined){
         d.mails.forEach(function(element, index, array){
-            to += element.to+"<br/>";
-            subject += element.subject+"<br/>";
-            replies += element.replies+"<br/>";
+            to += "<span class='"+element.type+"' style='width:90;'>"+element.to+"</span><br/>";
+            subject += "<span class='"+element.type+"' style='width:140;'>"+element.subject+"</span><br/>";
+            replies +="<span class='"+element.type+"'style='width:10;'>"+ element.replies+"</span><br/>";
         });
         }
         toText.html("<div class='tableText' style='width:180; height:150;word-wrap: break-word;'>"+to+"</div>");
@@ -273,6 +292,7 @@ d3.json("data.json", function(classes) {
             .classed("node--target", false)
             .classed("node--source", false);
         svg1.selectAll(".table").style("visibility", "hidden");
+        svg1.selectAll(".invisible").style("visibility", "hidden");
 
     }
 
