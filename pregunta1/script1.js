@@ -342,8 +342,8 @@ Henk_Bodrogi.on("click", function() {
         .style("fill", "#965F00");
 
     textplace.style("visibility", "visible");
-    textplace.transition().style("fill", "#965F00");
     textplace.transition().style("stroke", "#8B8490");
+    textplace.transition().style("fill", "#965F00");
     d3.text("bodrogi.html", function(unparsedData){
         texttitle.html('<div class="text" style="width: '+(7*width/8-10)+'px; color:#ECE9E0; font: 12px sans-serif;">' +
             unparsedData+ '</div>')
