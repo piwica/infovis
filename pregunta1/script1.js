@@ -304,8 +304,8 @@ var Mandor_Vann = svg
 var textplace= svg
     .append("rect")
     //.style("stroke", "none");
-    .style("stroke", "#8B8490")
-    .style("stroke-width", "5");
+    .style("stroke", "#514C55")
+    .style("stroke-width", "2");
 
 textplace
     .attr("x", width/8)
