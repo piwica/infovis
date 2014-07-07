@@ -19,7 +19,7 @@ circle.parent {
     fill: #F1A620;/*#965F00*/
     fill-opacity: .40;
     stroke: #965F00;
-    padding:60px;
+    
 }
 
 circle.parent:hover {
