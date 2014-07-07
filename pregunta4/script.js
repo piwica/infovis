@@ -28,31 +28,31 @@ var link = svg.append("g").selectAll(".link"),
 
 svg1
     .append("rect")
-    .attr("class", "Information")
-    .attr("x", diameter)
-    .attr("y", diameter/2)
-    .attr("width", 10)
-    .attr("height", 10);
-svg1.append("text")
-    .attr("x", diameter )
-    .attr("y", diameter/2)
-    .attr("dy", "10px")
-    .attr("dx", "20px")
-    .text("Information Technology");
-
-svg1
-    .append("rect")
     .attr("class", "POK")
     .attr("x", diameter)
-    .attr("y", diameter/2+20)
+    .attr("y", diameter/2)
     .attr("width", 10)
     .attr("height", 10);
 svg1.append("text")
     .attr("x", diameter )
-    .attr("y", diameter/2+20)
+    .attr("y", diameter/2)
     .attr("dy", "10px")
     .attr("dx", "20px")
     .text("POK");
+
+svg1
+    .append("rect")
+    .attr("class", "Security")
+    .attr("x", diameter)
+    .attr("y", diameter/2+20)
+    .attr("width", 10)
+    .attr("height", 10);
+svg1.append("text")
+    .attr("x", diameter )
+    .attr("y", diameter/2+20)
+    .attr("dy", "10px")
+    .attr("dx", "20px")
+    .text("Security");
 
 svg1
     .append("rect")
@@ -70,7 +70,7 @@ svg1.append("text")
 
 svg1
     .append("rect")
-    .attr("class", "Facilities")
+    .attr("class", "Information")
     .attr("x", diameter)
     .attr("y", diameter/2+60)
     .attr("width", 10)
@@ -78,78 +78,81 @@ svg1
 svg1.append("text")
     .attr("x", diameter )
     .attr("y", diameter/2+60)
+    .attr("dy", "10px")
+    .attr("dx", "20px")
+    .text("Information Technology");
+
+svg1
+    .append("rect")
+    .attr("class", "Executive")
+    .attr("x", diameter)
+    .attr("y", diameter/2+80)
+    .attr("width", 10)
+    .attr("height", 10);
+svg1.append("text")
+    .attr("x", diameter )
+    .attr("y", diameter/2+80)
+    .attr("dy", "10px")
+    .attr("dx", "20px")
+    .text("Executive");
+
+
+svg1
+    .append("rect")
+    .attr("class", "Facilities")
+    .attr("x", diameter)
+    .attr("y", diameter/2+100)
+    .attr("width", 10)
+    .attr("height", 10);
+svg1.append("text")
+    .attr("x", diameter )
+    .attr("y", diameter/2+100)
     .attr("dy", "10px")
     .attr("dx", "20px")
     .text("Facilities");
 
-svg1
-    .append("rect")
-    .attr("class", "Security")
-    .attr("x", diameter)
-    .attr("y", diameter/2+80)
-    .attr("width", 10)
-    .attr("height", 10);
-svg1.append("text")
-    .attr("x", diameter )
-    .attr("y", diameter/2+80)
-    .attr("dy", "10px")
-    .attr("dx", "20px")
-    .text("Security");
 
 svg1
     .append("rect")
     .attr("class", "Engineering")
     .attr("x", diameter)
-    .attr("y", diameter/2+100)
+    .attr("y", diameter/2+120)
     .attr("width", 10)
     .attr("height", 10);
 svg1.append("text")
     .attr("x", diameter )
-    .attr("y", diameter/2+100)
+    .attr("y", diameter/2+120)
     .attr("dy", "10px")
     .attr("dx", "20px")
     .text("Engineering");
-svg1
-    .append("rect")
-    .attr("class", "Executive")
-    .attr("x", diameter)
-    .attr("y", diameter/2+120)
-    .attr("width", 10)
-    .attr("height", 10);
-svg1.append("text")
-    .attr("x", diameter )
-    .attr("y", diameter/2+120)
-    .attr("dy", "10px")
-    .attr("dx", "20px")
-    .text("Executive");
 
 //The table
 svg1.append("rect")
     .attr("class", "table")
     .attr("x", diameter)
     .attr("y", 100)
-    .attr("width", 500 )
+    .attr("width", 350 )
     .attr("height", diameter/3.5);
 
 svg1.append("line")
     .attr("class", "table")
     .attr("x1", diameter)
     .attr("y1", 120)
-    .attr("x2", diameter+500)
+    .attr("x2", diameter+350)
     .attr("y2", 120);
 
 svg1.append("line")
     .attr("class", "table")
-    .attr("x1", diameter+200)
+    .attr("x1", diameter+120)
     .attr("y1", 100)
-    .attr("x2", diameter+200)
+    .attr("x2", diameter+120)
     .attr("y2", 100+diameter/3.5);
 
 svg1.append("line")
     .attr("class", "table")
-    .attr("x1", diameter+400)
+    .attr("x1", diameter+300)
     .attr("y1", 100)
-    .attr("x2", diameter+400)
+    .attr("x2", diameter+300)
     .attr("y2", 100+diameter/3.5);
 
 svg1.append("text")
@@ -164,14 +167,14 @@ var toText = svg1.append("foreignObject")
         .attr("class", "table")
         .attr("x", diameter+10)
         .attr("y", 120)
-        .attr("width", 190)
+        .attr("width", 90)
         .attr("height", 150);
 
 
 
 svg1.append("text")
     .attr("class", "table")
-    .attr("x", diameter+200 )
+    .attr("x", diameter+120 )
     .attr("y", 100)
     .attr("dy", "13px")
     .attr("dx", "10px")
@@ -179,14 +182,14 @@ svg1.append("text")
 
 var subjectText = svg1.append("foreignObject")
     .attr("class", "table")
-    .attr("x", diameter+210)
+    .attr("x", diameter+120)
     .attr("y", 120)
-    .attr("width", 190)
+    .attr("width", 140)
     .attr("height", 150);
 
 svg1.append("text")
     .attr("class", "table")
-    .attr("x", diameter+400 )
+    .attr("x", diameter+300 )
     .attr("y", 100)
     .attr("dy", "13px")
     .attr("dx", "10px")
@@ -194,9 +197,9 @@ svg1.append("text")
 
 var repliesText = svg1.append("foreignObject")
     .attr("class", "table")
-    .attr("x", diameter+410)
+    .attr("x", diameter+310)
     .attr("y", 120)
-    .attr("width", 190)
+    .attr("width", 100)
     .attr("height", 150);
 
 

@@ -4,6 +4,7 @@
     <list default="true" id="b8e76425-a1a9-4b4e-89e7-e70521d0fc70" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pregunta4/app.css" afterPath="$PROJECT_DIR$/pregunta4/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pregunta4/data.json" afterPath="$PROJECT_DIR$/pregunta4/data.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Presentation/index.html" afterPath="$PROJECT_DIR$/Presentation/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pregunta4/script.js" afterPath="$PROJECT_DIR$/pregunta4/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,23 +29,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pregunta4/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="257" column="40" selection-start="6678" selection-end="6678" vertical-scroll-proportion="0.0" vertical-offset="3615" max-vertical-offset="4890">
+            <state line="112" column="0" selection-start="2580" selection-end="2580" vertical-scroll-proportion="0.36902484" vertical-offset="1487" max-vertical-offset="4935">
               <folding>
-                <marker date="1404768124000" expanded="true" signature="6689:6733" placeholder="..." />
-                <marker date="1404768124000" expanded="true" signature="6807:6850" placeholder="..." />
+                <marker date="1404770123000" expanded="true" signature="6691:6735" placeholder="..." />
+                <marker date="1404770123000" expanded="true" signature="6809:6852" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pregunta4/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="10" selection-start="272" selection-end="272" vertical-scroll-proportion="0.31304348" vertical-offset="0" max-vertical-offset="1320">
+            <state line="7" column="17" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pregunta2/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="17" selection-start="101" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2085">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Presentation/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="96" column="64" selection-start="4583" selection-end="4583" vertical-scroll-proportion="-8.916667" vertical-offset="1226" max-vertical-offset="1980">
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,12 +74,8 @@
       <file leaf-file-name="data.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pregunta4/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="4" selection-start="3702" selection-end="3702" vertical-scroll-proportion="-3.9" vertical-offset="285" max-vertical-offset="1710">
-              <folding>
-                <marker date="1404766931000" expanded="true" signature="2918:3696" placeholder="{&quot;name&quot;: &quot;POK.Ruscella_Mies_Haber(Administration)&quot;...}" />
-                <marker date="1404766931000" expanded="true" signature="5089:5640" placeholder="{&quot;name&quot;: &quot;POK.Henk_Mies(Facilities)&quot;...}" />
-                <marker date="1404766931000" expanded="true" signature="5646:6903" placeholder="{&quot;name&quot;: &quot;POK.Loreto_Bodrogi(Security)&quot;...}" />
-              </folding>
+            <state line="12" column="118" selection-start="1209" selection-end="1209" vertical-scroll-proportion="21.14" vertical-offset="1237" max-vertical-offset="1710">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,7 +132,6 @@
         <option value="$PROJECT_DIR$/pregunta1/app.css" />
         <option value="$PROJECT_DIR$/pregunta1/script1.js" />
         <option value="$PROJECT_DIR$/pregunta2/app.css" />
-        <option value="$PROJECT_DIR$/Presentation/index.html" />
         <option value="$PROJECT_DIR$/pregunta5/data.csv" />
         <option value="$PROJECT_DIR$/pregunta5/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -123,9 +140,10 @@
         <option value="$PROJECT_DIR$/pregunta6/app.css" />
         <option value="$PROJECT_DIR$/pregunta2/data.json" />
         <option value="$PROJECT_DIR$/pregunta2/script.js" />
+        <option value="$PROJECT_DIR$/Presentation/index.html" />
         <option value="$PROJECT_DIR$/pregunta4/data.json" />
-        <option value="$PROJECT_DIR$/pregunta4/script.js" />
         <option value="$PROJECT_DIR$/pregunta4/app.css" />
+        <option value="$PROJECT_DIR$/pregunta4/script.js" />
       </list>
     </option>
   </component>
@@ -483,10 +501,10 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3044925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.06467662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497979" sideWeight="0.67221296" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497979" sideWeight="0.93532336" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -514,11 +532,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pregunta7/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4365" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pokconnectionsFromAndTo/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2190" />
@@ -527,11 +540,6 @@
     <entry file="file://$PROJECT_DIR$/pregunta6/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="367" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Presentation/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="34" selection-start="1881" selection-end="1881" vertical-scroll-proportion="9.125" vertical-offset="969" max-vertical-offset="1965" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pokconnectionsFromAndTo/pokconnections.html">
@@ -576,17 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pregunta4/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="4" selection-start="3702" selection-end="3702" vertical-scroll-proportion="-3.9" vertical-offset="285" max-vertical-offset="1710">
-          <folding>
-            <marker date="1404766931000" expanded="true" signature="2918:3696" placeholder="{&quot;name&quot;: &quot;POK.Ruscella_Mies_Haber(Administration)&quot;...}" />
-            <marker date="1404766931000" expanded="true" signature="5089:5640" placeholder="{&quot;name&quot;: &quot;POK.Henk_Mies(Facilities)&quot;...}" />
-            <marker date="1404766931000" expanded="true" signature="5646:6903" placeholder="{&quot;name&quot;: &quot;POK.Loreto_Bodrogi(Security)&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pregunta1/script1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="351" column="4" selection-start="8228" selection-end="8281" vertical-scroll-proportion="-6.269231" vertical-offset="5102" max-vertical-offset="10770">
@@ -605,20 +602,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pregunta4/script.js">
+    <entry file="file://$PROJECT_DIR$/Presentation/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="257" column="40" selection-start="6678" selection-end="6678" vertical-scroll-proportion="0.0" vertical-offset="3615" max-vertical-offset="4890">
+        <state line="96" column="64" selection-start="4583" selection-end="4583" vertical-scroll-proportion="-8.916667" vertical-offset="1226" max-vertical-offset="1980">
           <folding>
-            <marker date="1404768124000" expanded="true" signature="6689:6733" placeholder="..." />
-            <marker date="1404768124000" expanded="true" signature="6807:6850" placeholder="..." />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pregunta4/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="118" selection-start="1209" selection-end="1209" vertical-scroll-proportion="21.14" vertical-offset="1237" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pregunta2/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="101" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2085">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pregunta4/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="10" selection-start="272" selection-end="272" vertical-scroll-proportion="0.31304348" vertical-offset="0" max-vertical-offset="1320">
+        <state line="7" column="17" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pregunta4/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="0" selection-start="2580" selection-end="2580" vertical-scroll-proportion="0.36902484" vertical-offset="1487" max-vertical-offset="4935">
+          <folding>
+            <marker date="1404770123000" expanded="true" signature="6691:6735" placeholder="..." />
+            <marker date="1404770123000" expanded="true" signature="6809:6852" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

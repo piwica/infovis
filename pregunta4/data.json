@@ -1,7 +1,6 @@
 [
     {"name":"POK.Isia_Vann(Security)",
-        "mails":[{"type":"POK", "subject":"The rest of the files are in your mailbox", "replies":0, "to":"Claudio_Hawelon"},
-                 {"type":"Stalking", "subject":"This weekend?", "replies":0, "to":"Rachel_Pantanal"},
+        "mails":[{"type":"Stalking", "subject":"This weekend?", "replies":0, "to":"Rachel_Pantanal"},
                  {"type":"Stalking", "subject":"Karoake night", "replies":0, "to":"Rachel_Pantanal"},
                  {"type":"Stalking", "subject":"This weekend?", "replies":0, "to":"Rachel_Pantanal"},
                  {"type":"Stalking", "subject":"Still busy?", "replies":0, "to":"Rachel_Pantanal"},
@@ -10,7 +9,8 @@
                  {"type":"Stalking", "subject":"Testing 1 2 3", "replies":0, "to":"Rachel_Pantanal"},
                  {"type":"Stalking", "subject":"Did you like the flowers?", "replies":0, "to":"Rachel_Pantanal"},
                  {"type":"Stalking", "subject":"This weekend?", "replies":0, "to":"Rachel_Pantanal"},
-                 {"type":"Stalking", "subject":"This weekend?", "replies":0, "to":"Rachel_Pantanal"}],
+                 {"type":"Stalking", "subject":"This weekend?", "replies":0, "to":"Rachel_Pantanal"},
+            {"type":"POK", "subject":"The rest of the files are in your mailbox", "replies":0, "to":"Claudio_Hawelon"}],
         "imports":[
         {"name":"Facilities.Claudio_Hawelon", "size":3},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2}]},
 
