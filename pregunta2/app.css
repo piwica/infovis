@@ -17,7 +17,7 @@ circle {
 
 circle.parent {
     fill: #F1A620;/*#965F00*/
-    fill-opacity: .50;
+    fill-opacity: .20;
     stroke: #965F00;
 }
 
