@@ -36,7 +36,7 @@ body {
     height: 640px;
     margin: 80px 160px 80px 160px;
     overflow: hidden;
-    position: relative;
+    position: relative; 
     width: 960px;
 }
 
