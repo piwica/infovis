@@ -53,27 +53,27 @@ line{
 
 .circle1{
     fill: #29493B;
-    stroke: #29493B;
+    stroke: #f1a620;
     pointer-events: visible;
     cursor: pointer;
 }
 
 .circle2{
     fill: #1F2A25;
-    stroke: #1F2A25;
+    stroke: #f1a620;
     pointer-events: visible;
     cursor: pointer;
 }
 .circle3{
     fill: #CF4440;
-    stroke: #CF4440;
+    stroke: #ECE9E0;
     pointer-events: visible;
     cursor: pointer;
 }
 
 .circle4{
     fill: #500006;
-    stroke: #500006;
+    stroke: #ECE9E0;
     pointer-events: visible;
     cursor: pointer;
 }
