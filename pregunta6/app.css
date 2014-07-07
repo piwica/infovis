@@ -52,7 +52,7 @@ line{
 }
 
 .circle1{
-    fill: #29493B;
+    fill: #1B8557; /*29493B;*/
     stroke: #29493B;
     pointer-events: visible;
     cursor: pointer;
@@ -72,7 +72,7 @@ line{
 }
 
 .circle4{
-    fill: #500006;
+    fill: #B7121D;/*500006;*/
     stroke: #500006;
     pointer-events: visible;
     cursor: pointer;
