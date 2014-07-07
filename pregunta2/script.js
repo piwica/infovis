@@ -1,6 +1,6 @@
 var w = 880,
     h = 600,
-    r = 550,//520,
+    r = 800,//520,
     x = d3.scale.linear().range([0, r]),
     y = d3.scale.linear().range([0, r]),
     node,
