@@ -305,7 +305,7 @@ var textplace= svg
     .append("rect")
     //.style("stroke", "none");
     .style("stroke", "#514C55")
-    .style("stroke-width", "2");
+    .style("stroke-width", "3");
 
 textplace
     .attr("x", width/8)
