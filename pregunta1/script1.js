@@ -311,7 +311,7 @@ textplace
     .attr("x", width/8)
     .attr("y", 4*height/4)
     .attr("width", 7*width/8)
-    .attr("height", height/4+100)
+    .attr("height", (height/4+100)+20)
     .attr("rx", 10)
     .attr("ry", 10)
     .style("visibility", "hidden");
