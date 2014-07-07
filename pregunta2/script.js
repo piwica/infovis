@@ -59,7 +59,7 @@ function zoom(d, i) {
 
     t.selectAll("text")
         .attr("x", function(d) { return x(d.x); })
-        .attr("y", function(d) { return y(d.y); })
+        .attr("y", function(d) { return y(d.y-6); })
         .attr("dy", function(d) { return d.children ? "-"+k*d.r/20+"em" : ".35em"; })
         .style("opacity", function(d) { return k * d.r > 20 ? 1 : 0; })
         .style("font-size" , function(d) {
