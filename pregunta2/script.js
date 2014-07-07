@@ -35,7 +35,7 @@ d3.json("data.json", function(data) {
         .enter().append("svg:text")
         .attr("class", function(d) { return d.children ? "parent" : "child"; })
         .attr("x", function(d) { return d.x; })
-        .attr("y", function(d) { return d.y-10; })
+        .attr("y", function(d) { return d.y-6; })
         .attr("dy", function(d) { return d.children ? "-"+d.r/20+"em" : ".35em"; })
         .attr("text-anchor", "middle")
         .style("opacity", function(d) { return d.r > 20 ? 1 : 0; })
