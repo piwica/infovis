@@ -247,6 +247,12 @@ function chart(csvpath, colorPositive, colorNegative) {
             .text("health");
         svg.append("text")
             .attr("class", "labels")
+            .attr("x", 640)
+            .attr("y", 133)
+            .style("text-anchor", "middle")
+            .text("leader");
+        svg.append("text")
+            .attr("class", "labels")
             .attr("x", 810)
             .attr("y", 145)
             .style("text-anchor", "middle")
