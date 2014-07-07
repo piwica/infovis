@@ -1,5 +1,5 @@
 var width = 1000,
-    height = 400;
+    height = 600;
 var svg = d3.select("body").append("svg")
     .attr("width", width+300)
     .attr("height", height+200);
@@ -311,7 +311,7 @@ textplace
     .attr("x", width/8)
     .attr("y", 4*height/4)
     .attr("width", 7*width/8)
-    .attr("height", (height/4+100)+20)
+    .attr("height", height/4+100)
     .attr("rx", 10)
     .attr("ry", 10)
     .style("visibility", "hidden");
