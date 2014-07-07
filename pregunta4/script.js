@@ -17,7 +17,7 @@ var line = d3.svg.line.radial()
     .angle(function(d) { return d.x / 180 * Math.PI; });
 
 var svg1 = d3.select("#chart").append("svg")
-    .attr("width", diameter+300)
+    .attr("width", diameter+600)
     .attr("height", diameter);
 
 var svg = svg1.append("g")
@@ -123,8 +123,53 @@ svg1.append("text")
     .attr("dx", "20px")
     .text("Executive");
 
+//The table
+svg1.append("rect")
+    .attr("class", "table")
+    .attr("x", diameter)
+    .attr("y", 100)
+    .attr("width", 500 )
+    .attr("height", diameter/4);
 
+svg1.append("line")
+    .attr("class", "table")
+    .attr("x1", diameter)
+    .attr("y1", 120)
+    .attr("x2", diameter+500)
+    .attr("y2", 120);
 
+svg1.append("line")
+    .attr("class", "table")
+    .attr("x1", diameter+200)
+    .attr("y1", 100)
+    .attr("x2", diameter+200)
+    .attr("y2", 100+diameter/4);
+
+svg1.append("line")
+    .attr("class", "table")
+    .attr("x1", diameter+400)
+    .attr("y1", 100)
+    .attr("x2", diameter+400)
+    .attr("y2", 100+diameter/4);
+
+svg1.append("text")
+    .attr("x", diameter )
+    .attr("y", 100)
+    .attr("dy", "13px")
+    .attr("dx", "20px")
+    .text("To");
+svg1.append("text")
+    .attr("x", diameter+200 )
+    .attr("y", 100)
+    .attr("dy", "13px")
+    .attr("dx", "20px")
+    .text("Subject");
+svg1.append("text")
+    .attr("x", diameter+400 )
+    .attr("y", 100)
+    .attr("dy", "13px")
+    .attr("dx", "20px")
+    .text("Replies");
 
 
 d3.json("data.json", function(classes) {
@@ -167,6 +212,15 @@ d3.json("data.json", function(classes) {
         node
             .classed("node--target", function(n) { return n.target; })
             .classed("node--source", function(n) { return n.source; });
+
+        fillthetable(d);
+    }
+
+    function fillthetable(d){
+        d.mails.each(function(n){
+            console.log(n);
+        });
+
     }
 
     function mouseouted(d) {

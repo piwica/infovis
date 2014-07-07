@@ -1,6 +1,18 @@
 [
-    {"name":"POK.Isia_Vann(Security)","imports":[
-        {"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Facilities.Claudio_Hawelon", "size":3},{"name":"Facilities.Claudio_Hawelon", "size":3},{"name":"Facilities.Claudio_Hawelon", "size":3},{"name":"POK.Loreto_Bodrogi(Security)", "size":2},{"name":"POK.Isia_Vann(Security)", "size":2},{"name":"POK.Edvard_Vann(Security)", "size":2},{"name":"Security.Hideki_Cocinaro", "size":2},{"name":"POK.Loreto_Bodrogi(Security)", "size":2},{"name":"POK.Isia_Vann(Security)", "size":2},{"name":"POK.Edvard_Vann(Security)", "size":2},{"name":"Security.Hideki_Cocinaro", "size":2}]},
+    {"name":"POK.Isia_Vann(Security)",
+        "mails":[{"type":"POK", "subject":"The rest of the files are in your mailbox", "replies":0, "targets":[{"name":"Facilities.Claudio_Hawelon"}]},
+                 {"type":"Stalking", "subject":"This weekend?", "replies":0, "targets":[{"name":"Administration.Rachel_Pantanal"}]},
+                 {"type":"Stalking", "subject":"Karoake night", "replies":0, "targets":[{"name":"Administration.Rachel_Pantanal"}]},
+                 {"type":"Stalking", "subject":"This weekend?", "replies":0, "targets":[{"name":"Administration.Rachel_Pantanal"}]},
+                 {"type":"Stalking", "subject":"Still busy?", "replies":0, "targets":[{"name":"Administration.Rachel_Pantanal"}]},
+                 {"type":"Stalking", "subject":"New gyro place opened", "replies":0, "targets":[{"name":"Administration.Rachel_Pantanal"}]},
+                 {"type":"Stalking", "subject":"Did you like the flowers?", "replies":0, "targets":[{"name":"Administration.Rachel_Pantanal"}]},
+                 {"type":"Stalking", "subject":"Testing 1 2 3", "replies":0, "targets":[{"name":"Administration.Rachel_Pantanal"}]},
+                 {"type":"Stalking", "subject":"Did you like the flowers?", "replies":0, "targets":[{"name":"Administration.Rachel_Pantanal"}]},
+                 {"type":"Stalking", "subject":"This weekend?", "replies":0, "targets":[{"name":"Administration.Rachel_Pantanal"}]},
+                 {"type":"Stalking", "subject":"This weekend?", "replies":0, "targets":[{"name":"Administration.Rachel_Pantanal"}]}],
+        "imports":[
+        {"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Facilities.Claudio_Hawelon", "size":3},{"name":"Facilities.Claudio_Hawelon", "size":3},{"name":"Facilities.Claudio_Hawelon", "size":3}]},
     {"name":"POK.Minke_Mies(Security)","imports":[
         {"name":"Engineering.Adra_Nubarron", "size":1},{"name":"Information Technology.Nils_Calixto", "size":2},{"name":"Information Technology.Nils_Calixto", "size":2},{"name":"Security.Inga_Ferro", "size":4},{"name":"Security.Inga_Ferro", "size":4},{"name":"Security.Inga_Ferro", "size":4},{"name":"Security.Inga_Ferro", "size":4},{"name":"POK.Loreto_Bodrogi(Security)", "size":1},{"name":"POK.Isia_Vann(Security)", "size":1},{"name":"POK.Hennie_Osvaldo(Security)", "size":1},{"name":"POK.Minke_Mies(Security)", "size":1},{"name":"POK.Ruscella_Mies_Haber(Administration)", "size":1},{"name":"Administration.Rachel_Pantanal", "size":1},{"name":"Engineering.Lars_Azada", "size":1},{"name":"Engineering.Felix_Balas", "size":1},{"name":"Engineering.Isande_Borrasca", "size":1},{"name":"Engineering.Axel_Calzas", "size":1},{"name":"Engineering.Gustav_Cazar", "size":1},{"name":"Engineering.Lidelse_Dedos", "size":1},{"name":"Engineering.Birgitta_Frente", "size":1},{"name":"Engineering.Vira_Frente", "size":1}]},
     {"name":"POK.Hennie_Osvaldo(Security)","imports":[

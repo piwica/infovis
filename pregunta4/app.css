@@ -8,6 +8,11 @@ text{
     fill: black;
 }
 
+.table{
+    fill:none;
+    stroke:#f1a620;
+}
+
 .node:hover {
     fill: #000;
 }
