@@ -319,7 +319,7 @@ textplace
 
 var texttitle = svg.append("foreignObject")
     .attr("x", width/8+10)
-    .attr("y", (4*height/4+10)-7)
+    .attr("y", (4*height/4+10)-11)
     .attr("width", 7*width/8-10)
     .attr("height", height/4+90)
     ;
