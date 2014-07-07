@@ -72,7 +72,7 @@ line{
 }
 
 .circle4{
-    fill: #7C070E;/*500006;*/
+    fill: #500006;
     stroke: #500006;
     pointer-events: visible;
     cursor: pointer;
