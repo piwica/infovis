@@ -309,7 +309,7 @@ var textplace= svg
 
 textplace
     .attr("x", width/8)
-    .attr("y", 4*height/4)
+    .attr("y", (4*height/4)-10)
     .attr("width", 7*width/8)
     .attr("height", height/4+100)
     .attr("rx", 10)
