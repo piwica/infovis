@@ -1,5 +1,5 @@
 [
-    {"name":"POK.Isia_Vann(Security)",
+    {"name":"POK.Isia_Vann",
         "mails":[{"type":"Stalking", "subject":"This weekend?", "replies":0, "to":"Rachel_Pantanal"},
                  {"type":"Stalking", "subject":"Karoake night", "replies":0, "to":"Rachel_Pantanal"},
                  {"type":"Stalking", "subject":"This weekend?", "replies":0, "to":"Rachel_Pantanal"},
@@ -14,58 +14,58 @@
         "imports":[
         {"name":"Facilities.Claudio_Hawelon", "size":3},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2},{"name":"Administration.Rachel_Pantanal", "size":2}]},
 
-    {"name":"POK.Minke_Mies(Security)",
+    {"name":"POK.Minke_Mies",
         "mails":[{"type":"POK", "subject":"The rest of the files are in your mailbox", "replies":5, "to":"Vira_Frente"}
            ],
         "imports":[
         {"name":"Engineering.Vira_Frente", "size":1}, {"name":"Engineering.Vira_Frente", "size":1}, {"name":"Engineering.Vira_Frente", "size":1}, {"name":"Engineering.Vira_Frente", "size":1}, {"name":"Engineering.Vira_Frente", "size":1}]},
 
-    {"name":"POK.Hennie_Osvaldo(Security)",
+    {"name":"POK.Hennie_Osvaldo",
         "mails":[{"type":"POK", "subject":"Notification of ouside visit", "replies":1, "to":"Minke_Mies, Isia_Vann,Hideki_Cocinaro, Felix_Resumir, Loreto_Bodrogi, Kanon_Herrero, Stenig_Fusil, Varja_Lagos"}
             ],
         "imports":[
-            {"name":"POK.Minke_Mies(Security)", "size":2},{"name":"POK.Isia_Vann(Security)", "size":4},{"name":"Security.Hideki_Cocinaro", "size":4},{"name":"Security.Felix_Resumir", "size":3}, {"name":"POK.Loreto_Bodrogi(Security)", "size":3},{"name":"Security.Kanon_Herrero", "size":4},{"name":"Security.Stenig_Fusil", "size":4}, {"name":"Security.Varja_Lagos", "size":2}]},
-    {"name":"POK.Ruscella_Mies_Haber(Administration)",
+            {"name":"POK.Minke_Mies", "size":2},{"name":"POK.Isia_Vann", "size":4},{"name":"Security.Hideki_Cocinaro", "size":4},{"name":"Security.Felix_Resumir", "size":3}, {"name":"POK.Loreto_Bodrogi", "size":3},{"name":"Security.Kanon_Herrero", "size":4},{"name":"Security.Stenig_Fusil", "size":4}, {"name":"Security.Varja_Lagos", "size":2}]},
+    {"name":"POK.Ruscella_Mies_Haber",
         "mails":[{"type":"POK", "subject":"FW: ARISE - Inspiration for Defenders of Kronos", "replies":4, "to":"Inga_Ferro,Loreto_Bodrogi, Isia_Vann"}
 
         ],"imports":[
-        {"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"POK.Loreto_Bodrogi(Security)", "size":2},{"name":"POK.Loreto_Bodrogi(Security)", "size":2},{"name":"POK.Loreto_Bodrogi(Security)", "size":2},{"name":"POK.Loreto_Bodrogi(Security)", "size":2},{"name":"POK.Isia_Vann(Security)", "size":2},{"name":"POK.Isia_Vann(Security)", "size":2},{"name":"POK.Isia_Vann(Security)", "size":2},{"name":"POK.Isia_Vann(Security)", "size":2}]},
-    {"name":"POK.Edvard_Vann(Security)",
+        {"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"POK.Loreto_Bodrogi", "size":2},{"name":"POK.Loreto_Bodrogi", "size":2},{"name":"POK.Loreto_Bodrogi", "size":2},{"name":"POK.Loreto_Bodrogi", "size":2},{"name":"POK.Isia_Vann", "size":2},{"name":"POK.Isia_Vann", "size":2},{"name":"POK.Isia_Vann", "size":2},{"name":"POK.Isia_Vann", "size":2}]},
+    {"name":"POK.Edvard_Vann",
         "mails":[{"type":"POK", "subject":"Security procedures for January 20 VIP visit", "replies":5, "to":"Kanon_Herrero, Minke_Mies, Hennie_Osvaldo, Inga_Ferro, Felix_Resumir "}
         ],"imports":[
-        {"name":"Security.Kanon_Herrero", "size":2},{"name":"Security.Kanon_Herrero", "size":2},{"name":"Security.Kanon_Herrero", "size":2},{"name":"Security.Kanon_Herrero", "size":2},{"name":"POK.Minke_Mies(Security)", "size":2},{"name":"POK.Minke_Mies(Security)", "size":2},{"name":"POK.Minke_Mies(Security)", "size":2},{"name":"POK.Minke_Mies(Security)", "size":2},{"name":"POK.Minke_Mies(Security)", "size":2},{"name":"POK.Hennie_Osvaldo(Security)", "size":2}, {"name":"POK.Hennie_Osvaldo(Security)", "size":2},{"name":"POK.Hennie_Osvaldo(Security)", "size":2},{"name":"POK.Hennie_Osvaldo(Security)", "size":2},{"name":"POK.Hennie_Osvaldo(Security)", "size":2},{"name":"POK.Hennie_Osvaldo(Security)", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Felix_Resumir", "size":2},{"name":"Security.Felix_Resumir", "size":2},{"name":"Security.Felix_Resumir", "size":2},{"name":"Security.Felix_Resumir", "size":2},{"name":"Security.Felix_Resumir", "size":2}]},
-    {"name":"POK.Henk_Mies(Facilities)",
+        {"name":"Security.Kanon_Herrero", "size":2},{"name":"Security.Kanon_Herrero", "size":2},{"name":"Security.Kanon_Herrero", "size":2},{"name":"Security.Kanon_Herrero", "size":2},{"name":"POK.Minke_Mies", "size":2},{"name":"POK.Minke_Mies", "size":2},{"name":"POK.Minke_Mies", "size":2},{"name":"POK.Minke_Mies", "size":2},{"name":"POK.Minke_Mies", "size":2},{"name":"POK.Hennie_Osvaldo", "size":2}, {"name":"POK.Hennie_Osvaldo", "size":2},{"name":"POK.Hennie_Osvaldo", "size":2},{"name":"POK.Hennie_Osvaldo", "size":2},{"name":"POK.Hennie_Osvaldo", "size":2},{"name":"POK.Hennie_Osvaldo", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Felix_Resumir", "size":2},{"name":"Security.Felix_Resumir", "size":2},{"name":"Security.Felix_Resumir", "size":2},{"name":"Security.Felix_Resumir", "size":2},{"name":"Security.Felix_Resumir", "size":2}]},
+    {"name":"POK.Henk_Mies",
         "mails":[{"type":"POK", "subject":"Files", "replies":2, "to":"Sten_Sanjorge Jr"},
             {"type":"POK", "subject":"Late for meeting", "replies":5, "to":"Inga_Ferro"}
         ],"imports":[
         {"name":"Executive.Sten_Sanjorge Jr_", "size":2}, {"name":"Executive.Sten_Sanjorge Jr_", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2}]},
-    {"name":"POK.Loreto_Bodrogi(Security)",
+    {"name":"POK.Loreto_Bodrogi",
         "mails":[{"type":"POK", "subject":"Security procedures for January 20 VIP visit", "replies":4, "to":"Isia_Vann, Varja_Lagos"},
             {"type":"POK", "subject":"Notification of outside visit", "replies":3, "to":"Minke_Mies, Stenig_Fusil, Felix_Resumir"}
         ],
         "imports":[
-            {"name":"Security.Felix_Resumir", "size":3}, {"name":"Security.Felix_Resumir", "size":3},{"name":"Security.Felix_Resumir", "size":3}, {"name":"Security.Stenig_Fusil"}, {"name":"Security.Stenig_Fusil"}, {"name":"Security.Stenig_Fusil"},{"name":"POK.Minke_Mies(Security)", "size":2}, {"name":"POK.Minke_Mies(Security)", "size":2}, {"name":"POK.Minke_Mies(Security)", "size":2},{"name":"Security.Varja_Lagos", "size":1},{"name":"Security.Varja_Lagos", "size":1},{"name":"Security.Varja_Lagos", "size":1},{"name":"Security.Varja_Lagos", "size":1},{"name":"Security.Hideki_Cocinaro", "size":4},{"name":"Security.Hideki_Cocinaro", "size":4},{"name":"Security.Hideki_Cocinaro", "size":4},{"name":"Security.Hideki_Cocinaro", "size":4},{"name":"POK.Isia_Vann(Security)", "size":4},{"name":"POK.Isia_Vann(Security)", "size":4},{"name":"POK.Isia_Vann(Security)", "size":4},{"name":"POK.Isia_Vann(Security)", "size":4}]},
+            {"name":"Security.Felix_Resumir", "size":3}, {"name":"Security.Felix_Resumir", "size":3},{"name":"Security.Felix_Resumir", "size":3}, {"name":"Security.Stenig_Fusil"}, {"name":"Security.Stenig_Fusil"}, {"name":"Security.Stenig_Fusil"},{"name":"POK.Minke_Mies", "size":2}, {"name":"POK.Minke_Mies", "size":2}, {"name":"POK.Minke_Mies", "size":2},{"name":"Security.Varja_Lagos", "size":1},{"name":"Security.Varja_Lagos", "size":1},{"name":"Security.Varja_Lagos", "size":1},{"name":"Security.Varja_Lagos", "size":1},{"name":"Security.Hideki_Cocinaro", "size":4},{"name":"Security.Hideki_Cocinaro", "size":4},{"name":"Security.Hideki_Cocinaro", "size":4},{"name":"Security.Hideki_Cocinaro", "size":4},{"name":"POK.Isia_Vann", "size":4},{"name":"POK.Isia_Vann", "size":4},{"name":"POK.Isia_Vann", "size":4},{"name":"POK.Isia_Vann", "size":4}]},
     {"name":"Security.Varja_Lagos",
         "mails":[{"type":"POK", "subject":"Security procedures for January 20 VIP visit", "replies":4, "to":"Loreto_Bodrogi, Hennie_Osvaldo"}
 
         ],"imports":[
-        {"name":"POK.Hennie_Osvaldo(Security)", "size":2}, {"name":"POK.Hennie_Osvaldo(Security)", "size":2},{"name":"POK.Hennie_Osvaldo(Security)", "size":2},{"name":"POK.Hennie_Osvaldo(Security)", "size":2},{"name":"POK.Loreto_Bodrogi(Security)", "size":2},{"name":"POK.Loreto_Bodrogi(Security)", "size":2},{"name":"POK.Loreto_Bodrogi(Security)", "size":2},{"name":"POK.Loreto_Bodrogi(Security)", "size":2}]},
+        {"name":"POK.Hennie_Osvaldo", "size":2}, {"name":"POK.Hennie_Osvaldo", "size":2},{"name":"POK.Hennie_Osvaldo", "size":2},{"name":"POK.Hennie_Osvaldo", "size":2},{"name":"POK.Loreto_Bodrogi", "size":2},{"name":"POK.Loreto_Bodrogi", "size":2},{"name":"POK.Loreto_Bodrogi", "size":2},{"name":"POK.Loreto_Bodrogi", "size":2}]},
     {"name":"Administration.Rachel_Pantanal",
         "mails":[{"type":"POK", "subject":"Files", "replies":3, "to":" Hennie_Osvaldo"},
             {"type":"Leaving", "subject":"Question - new travel forms", "replies":3, "to":"Mat_Bramar, Anda_Ribera, Linda_Lagos "}
 
         ],"imports":[
-        {"name":"Administration.Linda_Lagos", "size":2},{"name":"Administration.Linda_Lagos", "size":2},{"name":"Administration.Linda_Lagos", "size":2},{"name":"Administration.Anda_Ribera", "size":2},{"name":"Administration.Anda_Ribera", "size":2},{"name":"Administration.Anda_Ribera", "size":2}, {"name":"Administration.Mat_Bramar", "size":2},{"name":"Administration.Mat_Bramar", "size":2},{"name":"Administration.Mat_Bramar", "size":2},{"name":"POK.Hennie_Osvaldo(Security)", "size":2}, {"name":"POK.Hennie_Osvaldo(Security)", "size":2},{"name":"POK.Hennie_Osvaldo(Security)", "size":2}]},
+        {"name":"Administration.Linda_Lagos", "size":2},{"name":"Administration.Linda_Lagos", "size":2},{"name":"Administration.Linda_Lagos", "size":2},{"name":"Administration.Anda_Ribera", "size":2},{"name":"Administration.Anda_Ribera", "size":2},{"name":"Administration.Anda_Ribera", "size":2}, {"name":"Administration.Mat_Bramar", "size":2},{"name":"Administration.Mat_Bramar", "size":2},{"name":"Administration.Mat_Bramar", "size":2},{"name":"POK.Hennie_Osvaldo", "size":2}, {"name":"POK.Hennie_Osvaldo", "size":2},{"name":"POK.Hennie_Osvaldo", "size":2}]},
     {"name":"Security.Inga_Ferro",
         "mails":[{"type":"POK", "subject":"Late for meeting", "replies":5, "to":" Minke_Mies"}
 
         ],"imports":[
-        {"name":"POK.Minke_Mies(Security)", "size":2}, {"name":"POK.Minke_Mies(Security)", "size":2}, {"name":"POK.Minke_Mies(Security)", "size":2}, {"name":"POK.Minke_Mies(Security)", "size":2}, {"name":"POK.Minke_Mies(Security)", "size":2}]},
+        {"name":"POK.Minke_Mies", "size":2}, {"name":"POK.Minke_Mies", "size":2}, {"name":"POK.Minke_Mies", "size":2}, {"name":"POK.Minke_Mies", "size":2}, {"name":"POK.Minke_Mies", "size":2}]},
     {"name":"Information Technology.Linnea_Bergen",
         "mails":[{"type":"POK", "subject":"Action: Virus detected on your system", "replies":7, "to":" Loreto_Bodrogi,Inga_Ferro,Isia_Vann "}
 
         ],"imports":[
-        {"name":"POK.Isia_Vann(Security)", "size":4},{"name":"POK.Isia_Vann(Security)", "size":4},{"name":"POK.Isia_Vann(Security)", "size":4},{"name":"POK.Isia_Vann(Security)", "size":4},{"name":"POK.Isia_Vann(Security)", "size":4},{"name":"POK.Isia_Vann(Security)", "size":4},{"name":"POK.Isia_Vann(Security)", "size":4},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"POK.Loreto_Bodrogi(Security)", "size":2},{"name":"POK.Loreto_Bodrogi(Security)", "size":2},{"name":"POK.Loreto_Bodrogi(Security)", "size":2},{"name":"POK.Loreto_Bodrogi(Security)", "size":2},{"name":"POK.Loreto_Bodrogi(Security)", "size":2},{"name":"POK.Loreto_Bodrogi(Security)", "size":2},{"name":"POK.Loreto_Bodrogi(Security)", "size":2}]},
+        {"name":"POK.Isia_Vann", "size":4},{"name":"POK.Isia_Vann", "size":4},{"name":"POK.Isia_Vann", "size":4},{"name":"POK.Isia_Vann", "size":4},{"name":"POK.Isia_Vann", "size":4},{"name":"POK.Isia_Vann", "size":4},{"name":"POK.Isia_Vann", "size":4},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"Security.Inga_Ferro", "size":2},{"name":"POK.Loreto_Bodrogi", "size":2},{"name":"POK.Loreto_Bodrogi", "size":2},{"name":"POK.Loreto_Bodrogi", "size":2},{"name":"POK.Loreto_Bodrogi", "size":2},{"name":"POK.Loreto_Bodrogi", "size":2},{"name":"POK.Loreto_Bodrogi", "size":2},{"name":"POK.Loreto_Bodrogi", "size":2}]},
     {"name":"Executive.Sten_Sanjorge Jr_",
         "mails":[{"type":"Leaving", "subject":"Suggest topics for upcoming retreat", "replies":4, "to":" Ada_Campo-Corrente, Ingrid_Barranco "}
 
