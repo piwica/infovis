@@ -1,5 +1,5 @@
 
-d3.csv("data.csv", function(error, links) {
+d3.csv("datagt2.csv", function(error, links) {
 
     var nodes = {};
 
@@ -35,11 +35,11 @@ d3.csv("data.csv", function(error, links) {
         .enter().append("svg:path")
         .attr("class", "link")
         .style("stroke", function(d) { if (d.width<0.7)
-                                                return "#CCCCCC";
-                                            else if (d.width>=0.7 && d.width<0.85 )
-                                                return "#8B8B8B";
-                                            else
-                                                return "#000000"});
+            return "#CCCCCC";
+        else if (d.width>=0.7 && d.width<0.85 )
+            return "#8B8B8B";
+        else
+            return "#000000"});
 
 // define the nodes
     var node = svg.selectAll(".node")

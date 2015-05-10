@@ -7,8 +7,25 @@
 </head>
 
 <body>
+<select id="funciones">
+    <option value="data50.csv">Frecuencia mayor a 50</option>
+    <option value="datagt40.csv">Frecuencia mayor a 40</option>
+    <option value="datagt20.csv">Frecuencia mayor a 20</option>
+    <option value="datagt10.csv">Frecuencia mayor a 10</option>
+    <option value="datagt2.csv">Frecuencia mayor a 2</option>
+</select>
+<div id="visualizacion"></div>
 </body>
 
+<script src="jquery-1.11.3.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="script1.js"></script>
+<script src="script.js"></script>
+<script>
+    $("#funciones").change(function() {
+        var file = $( "#funciones option:selected").val();
+        cargarDatos(file);
+
+    });
+    cargarDatos("data50.csv");
+</script>
 </html>
